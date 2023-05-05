@@ -6,7 +6,7 @@
 
 <a
   {href}
-  class={`${extClass} text-green-400 visited:text-emerald-500`}
+  class={`${extClass} text-base font-normal text-green-400 visited:text-emerald-500`}
   target="_blank"
 >
   {content}

@@ -1,6 +1,6 @@
 <script>
   import ClickableText from "../primitives/ClickableText.svelte";
-  import BodyText1 from "../primitives/BodyText1.svelte";
+  import NormalText from "../primitives/NormalText.svelte";
   import Title from "../primitives/Title.svelte";
   export let contact = {
     telegram: "https://t.me/ch810",
@@ -12,9 +12,9 @@
 
 <Title title="Contact  📞" />
 <div class="flex mt-2 ms-4">
-  <BodyText1 content="You can connect with me through" />
+  <NormalText content="You can connect with me through" />
   <ClickableText extClass="ms-1" content="Telegram" href={contact.telegram} />
-  <BodyText1 content="Or Email me at" />
+  <NormalText extClass="ms-1" content="Or Email me at" />
   <ClickableText
     extClass="ms-1"
     content={contact.email}

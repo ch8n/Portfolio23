@@ -1,4 +1,5 @@
 <script>
+  import Connect from "./components/about/Connect.svelte";
   import Contact from "./components/about/Contact.svelte";
   import Highlights from "./components/about/Highlights.svelte";
   import Resume from "./components/about/Resume.svelte";
@@ -11,6 +12,8 @@
   <Highlights />
   <Spacer />
   <Contact />
+  <Spacer />
+  <Connect />
 </main>
 
 <style>

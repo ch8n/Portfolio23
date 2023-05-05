@@ -1,5 +1,5 @@
 <script>
-  import BodyText1 from "../primitives/BodyText1.svelte";
+  import BodyText1 from "../primitives/NormalText.svelte";
   import ClickableText from "../primitives/ClickableText.svelte";
   import Title from "../primitives/Title.svelte";
 </script>

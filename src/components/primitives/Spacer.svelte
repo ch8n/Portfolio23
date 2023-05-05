@@ -1,1 +1,5 @@
-<div class="px-2 py-2" />
+<script>
+  export let extClass = "px-2 py-2";
+</script>
+
+<div class={extClass} />
