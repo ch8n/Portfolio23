@@ -1,28 +1,30 @@
 <script>
-  import ClickableText from "../primitives/ClickableText.svelte";
   import CaptionText from "../primitives/CaptionText.svelte";
-  import Spacer from "../primitives/Spacer.svelte";
+  import ClickableText from "../primitives/ClickableText.svelte";
+  import NormalText from "../primitives/NormalText.svelte";
   import Subtitle from "../primitives/Subtitle.svelte";
   import Title from "../primitives/Title.svelte";
-  import NormalText from "../primitives/NormalText.svelte";
   export let qualifications = [
     {
       degree: "B.Tech - Computer Science",
       institute: "Apeejay Stya University",
-      marksheetUrl: "",
-      cgpa: "4.1/5",
+      marksheetUrl:
+        "https://drive.google.com/file/d/1oM7XH78voOrppzf4mTxpM-IsSAt1x9cs/view?usp=share_link",
+      cgpa: "4.09/4.3",
     },
     {
       degree: "Class XII (High School)",
       institute: "DPS, Deep public School",
-      marksheetUrl: "",
+      marksheetUrl:
+        "https://drive.google.com/file/d/1HjBhFAsQyjuOYjHbOdiGlDQ-fJm_8W22/view?usp=share_link",
       cgpa: "8.2/10",
     },
     {
       degree: "Class X (Mid-High School)",
       institute: "AES, Andra Education Society School",
-      marksheetUrl: "",
-      cgpa: "7.9/10",
+      marksheetUrl:
+        "https://drive.google.com/file/d/1C9cJuZHeEtjE3TyIEQDFliqR3VCgkV3i/view?usp=share_link",
+      cgpa: "7.6/10",
     },
   ];
 </script>
@@ -30,10 +32,10 @@
 <Title content="Qualification 🎓" />
 <div class=" mt-2 ms-8">
   <CaptionText content="My College and Schooling Details:" />
-  <div class="mt-2">
-    <ul class="flex">
+  <div class="mt-4">
+    <ul class="grid grid-cols-4">
       {#each qualifications as qualification}
-        <li class="ms-4">
+        <li>
           <div>
             <Subtitle content={qualification.degree} />
             <CaptionText content={qualification.institute} />
