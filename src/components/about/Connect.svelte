@@ -52,7 +52,7 @@
 </script>
 
 <Title title="Connect  🌎" />
-<div class="flex-col mt-2 ms-4">
+<div class="flex-col mt-2 ms-8">
   <CaptionText content="You can follow me on social media on :" />
   <Spacer />
   <ul class="flex">

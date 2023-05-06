@@ -3,6 +3,7 @@
   import Contact from "./components/about/Contact.svelte";
   import Highlights from "./components/about/Highlights.svelte";
   import Resume from "./components/about/Resume.svelte";
+  import WorkExperience from "./components/about/WorkExperience.svelte";
   import Spacer from "./components/primitives/Spacer.svelte";
 </script>
 
@@ -14,6 +15,8 @@
   <Contact />
   <Spacer />
   <Connect />
+  <Spacer />
+  <WorkExperience />
 </main>
 
 <style>

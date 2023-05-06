@@ -11,7 +11,7 @@
 </script>
 
 <Title title="Contact  📞" />
-<div class="flex mt-2 ms-4">
+<div class="flex mt-2 ms-8">
   <NormalText content="You can connect with me through" />
   <ClickableText extClass="ms-1" content="Telegram" href={contact.telegram} />
   <NormalText extClass="ms-1" content="Or Email me at" />
