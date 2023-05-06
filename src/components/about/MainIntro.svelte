@@ -4,9 +4,9 @@
 
 <div id="Top ^" class="grid justify-items-center w-3/4">
   <!-- svelte-ignore a11y-img-redundant-alt -->
-  <img class="w-3/4" {src} alt="background image" />
+  <img class="w-2/3" {src} alt="background image" />
 
-  <p class="w-full mt-8 text-sm font-light text-center">
+  <p class="w-11/12 mt-8 text-sm font-light text-center">
     I’m a senior software Engineer from India. Currently working at Housing.com.
     Having 5+ Years of experince in Android development with Kotlin and Java.
     Enthusiast about open source and Mobile technology and want to explore all
