@@ -2,6 +2,7 @@
   import Connect from "./components/about/Connect.svelte";
   import Contact from "./components/about/Contact.svelte";
   import Highlights from "./components/about/Highlights.svelte";
+  import Qualification from "./components/about/Qualification.svelte";
   import Resume from "./components/about/Resume.svelte";
   import WorkExperience from "./components/about/WorkExperience.svelte";
   import Spacer from "./components/primitives/Spacer.svelte";
@@ -17,6 +18,8 @@
   <Connect />
   <Spacer />
   <WorkExperience />
+  <Spacer />
+  <Qualification />
 </main>
 
 <style>

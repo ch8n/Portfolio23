@@ -4,7 +4,7 @@
   import Title from "../primitives/Title.svelte";
 </script>
 
-<Title title="Resume 🔖" />
+<Title content="Resume 🔖" />
 <div class="flex mt-2 ms-8">
   <NormalText content="Download my resume from" />
   <ClickableText

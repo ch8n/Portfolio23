@@ -9,7 +9,7 @@
   };
 </script>
 
-<Title title="Work Experience ☕" />
+<Title content="Work Experience ☕" />
 <div class=" mt-2 ms-8">
   <p class="text-base font-normal">
     Read more details about my past jobs from

@@ -10,7 +10,7 @@
   ];
 </script>
 
-<Title title="Highlights 🔦" />
+<Title content="Highlights 🔦" />
 <div class="mt-2 ms-4">
   <DiscTextList textList={highlights} />
 </div>

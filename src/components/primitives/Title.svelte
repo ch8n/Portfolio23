@@ -1,5 +1,5 @@
 <script>
-  export let title;
+  export let content;
 </script>
 
-<p class="text-3xl font-semibold">{title}</p>
+<p class="text-3xl font-semibold">{content}</p>

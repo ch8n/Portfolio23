@@ -10,7 +10,7 @@
   };
 </script>
 
-<Title title="Contact  📞" />
+<Title content="Contact  📞" />
 <div class="flex mt-2 ms-8">
   <NormalText content="You can connect with me through" />
   <ClickableText extClass="ms-1" content="Telegram" href={contact.telegram} />
