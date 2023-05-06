@@ -8,7 +8,9 @@
 
 <div>
   <a {href} target="_blank">
-    <Fa icon={faIcon} size="2x" class="ms-2" />
-    <CaptionText content={label} />
+    <div class="grid justify-items-center">
+      <Fa icon={faIcon} size="2x" />
+      <CaptionText content={label} />
+    </div>
   </a>
 </div>
