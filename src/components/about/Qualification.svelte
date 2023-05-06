@@ -33,7 +33,7 @@
 <div class=" mt-2 ms-8">
   <CaptionText content="My College and Schooling Details:" />
   <div class="mt-4">
-    <ul class="grid grid-cols-4">
+    <ul class="grid grid-cols-3">
       {#each qualifications as qualification}
         <li>
           <div>

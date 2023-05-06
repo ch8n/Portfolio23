@@ -11,15 +11,17 @@
 </script>
 
 <Title content="Contact  📞" />
-<div class="flex mt-2 ms-8">
-  <NormalText content="You can connect with me through" />
-  <ClickableText extClass="ms-1" content="Telegram" href={contact.telegram} />
-  <NormalText extClass="ms-1" content="Or Email me at" />
-  <ClickableText
-    extClass="ms-1"
-    content={contact.email}
-    href={contact.emailComposeUrl}
-  />
+<div class="mt-2 ms-8">
+  <p>
+    You can connect with me through
+    <span>
+      <ClickableText content="Telegram" href={contact.telegram} />
+    </span>
+    Or Email me at
+    <span>
+      <ClickableText content={contact.email} href={contact.emailComposeUrl} />
+    </span>
+  </p>
 </div>
 
 <style>
