@@ -10,9 +10,11 @@
   ];
 </script>
 
-<Title content="Highlights 🔦" />
-<div class="mt-2 ms-4">
-  <DiscTextList textList={highlights} />
+<div id="Highlights">
+  <Title content="Highlights 🔦" />
+  <div class="mt-2 ms-4">
+    <DiscTextList textList={highlights} />
+  </div>
 </div>
 
 <style>

@@ -10,18 +10,20 @@
   };
 </script>
 
-<Title content="Contact  📞" />
-<div class="mt-2 ms-8">
-  <p>
-    You can connect with me through
-    <span>
-      <ClickableText content="Telegram" href={contact.telegram} />
-    </span>
-    Or Email me at
-    <span>
-      <ClickableText content={contact.email} href={contact.emailComposeUrl} />
-    </span>
-  </p>
+<div id="Contact">
+  <Title content="Contact  📞" />
+  <div class="mt-2 ms-8">
+    <p>
+      You can connect with me through
+      <span>
+        <ClickableText content="Telegram" href={contact.telegram} />
+      </span>
+      Or Email me at
+      <span>
+        <ClickableText content={contact.email} href={contact.emailComposeUrl} />
+      </span>
+    </p>
+  </div>
 </div>
 
 <style>

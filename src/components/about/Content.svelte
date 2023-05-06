@@ -1,7 +1,9 @@
 <script>
   import DiscTextList from "../primitives/DiscTextList.svelte";
+  import NormalText from "../primitives/NormalText.svelte";
   import Title from "../primitives/Title.svelte";
   export let sections = [
+    "Top ^",
     "Resume",
     "Highlights",
     "Contact",
@@ -16,7 +18,15 @@
 
 <Title content="Content 📒" />
 <div class="flex-col mt-2 ms-4">
-  <DiscTextList textList={sections} />
+  <ul class="list-none">
+    {#each sections as section}
+      <li>
+        <a class="text-sm font-extralight" href={`#${section}`}>{section}</a>
+      </li>
+    {:else}
+      <li><NormalText content="Woops! Nothing to see here..." /></li>
+    {/each}
+  </ul>
 </div>
 
 <style>

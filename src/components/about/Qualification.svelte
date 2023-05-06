@@ -29,34 +29,36 @@
   ];
 </script>
 
-<Title content="Qualification 🎓" />
-<div class=" mt-2 ms-8">
-  <CaptionText content="My College and Schooling Details:" />
-  <div class="mt-4">
-    <ul class="grid grid-cols-3">
-      {#each qualifications as qualification}
-        <li>
-          <div>
-            <Subtitle content={qualification.degree} />
-            <CaptionText content={qualification.institute} />
-            <p class="text-sm font-extralight">
-              Download Marksheet from
-              <span>
-                <ClickableText
-                  content="here"
-                  href={qualification.marksheetUrl}
-                />
-              </span>
-            </p>
-            <CaptionText content={`CGPA - ${qualification.cgpa}`} />
-          </div>
-        </li>
-      {:else}
-        <li>
-          <NormalText content="Woops! Nothing to see here..." />
-        </li>
-      {/each}
-    </ul>
+<div id="Qualification">
+  <Title content="Qualification 🎓" />
+  <div class=" mt-2 ms-8">
+    <CaptionText content="My College and Schooling Details:" />
+    <div class="mt-4">
+      <ul class="grid grid-cols-3">
+        {#each qualifications as qualification}
+          <li>
+            <div>
+              <Subtitle content={qualification.degree} />
+              <CaptionText content={qualification.institute} />
+              <p class="text-sm font-extralight">
+                Download Marksheet from
+                <span>
+                  <ClickableText
+                    content="here"
+                    href={qualification.marksheetUrl}
+                  />
+                </span>
+              </p>
+              <CaptionText content={`CGPA - ${qualification.cgpa}`} />
+            </div>
+          </li>
+        {:else}
+          <li>
+            <NormalText content="Woops! Nothing to see here..." />
+          </li>
+        {/each}
+      </ul>
+    </div>
   </div>
 </div>
 

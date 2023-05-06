@@ -1,4 +1,6 @@
 <script>
+  import MainIntro from "./components/about/MainIntro.svelte";
+
   import Awards from "./components/about/Awards.svelte";
   import Connect from "./components/about/Connect.svelte";
   import Contact from "./components/about/Contact.svelte";
@@ -14,8 +16,11 @@
 
 <main>
   <div class="grid grid-cols-3">
+    <div class="col-span-3 mt-24 mb-8 grid justify-items-center">
+      <MainIntro />
+    </div>
     <div class="col-span-1 max-w-xs">
-      <div class="mt-24 ms-4 fixed">
+      <div class="mt-24 ms-4 sticky top-8">
         <Content />
       </div>
     </div>
@@ -39,8 +44,7 @@
       <Testimonials />
       <Spacer />
       <Website />
-      <Spacer />
-      <Spacer />
+      <div class="m-48" />
     </div>
   </div>
 </main>

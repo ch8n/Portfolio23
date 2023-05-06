@@ -51,23 +51,25 @@
   ];
 </script>
 
-<Title content="Connect  🌎" />
-<div class="flex-col mt-2 ms-8">
-  <CaptionText content="You can follow me on social media on :" />
-  <Spacer />
-  <ul class="flex">
-    {#each socialLinks as social}
-      <li class="ms-4">
-        <LabeledIcon
-          faIcon={social.icon}
-          label={social.name}
-          href={social.url}
-        />
-      </li>
-    {:else}
-      <li>Woops!.. Nothing to see here.</li>
-    {/each}
-  </ul>
+<div id="Connect">
+  <Title content="Connect  🌎" />
+  <div class="flex-col mt-2 ms-8">
+    <CaptionText content="You can follow me on social media on :" />
+    <Spacer />
+    <ul class="flex">
+      {#each socialLinks as social}
+        <li class="ms-4">
+          <LabeledIcon
+            faIcon={social.icon}
+            label={social.name}
+            href={social.url}
+          />
+        </li>
+      {:else}
+        <li>Woops!.. Nothing to see here.</li>
+      {/each}
+    </ul>
+  </div>
 </div>
 
 <style>

@@ -10,9 +10,11 @@
   ];
 </script>
 
-<Title content="About Website 📜" />
-<div class="flex-col mt-2 ms-8">
-  <DiscTextList textList={content} />
+<div id="About Website">
+  <Title content="About Website 📜" />
+  <div class="flex-col mt-2 ms-8">
+    <DiscTextList textList={content} />
+  </div>
 </div>
 
 <style>
