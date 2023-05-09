@@ -3,16 +3,50 @@
   import NormalText from "../primitives/NormalText.svelte";
   import Title from "../primitives/Title.svelte";
   export let sections = [
-    "Top ^",
-    "Resume",
-    "Highlights",
-    "Contact",
-    "Connect",
-    "Work Experience",
-    "Qualification",
-    "Awards",
-    "Testimonials",
-    "About Website",
+    {
+      label: "Top ^",
+      id: "Top ^",
+    },
+    {
+      label: "Resume 🔖",
+      id: "Resume",
+    },
+    {
+      label: "Highlights 🔦",
+      id: "Highlights",
+    },
+    {
+      label: "Contact 📞",
+      id: "Contact",
+    },
+    {
+      label: "Connect 🌎",
+      id: "Connect",
+    },
+    {
+      label: "Work Experience ☕",
+      id: "Work Experience",
+    },
+    {
+      label: "Qualification 🎓",
+      id: "Qualification",
+    },
+    {
+      label: "Awards 🏆",
+      id: "Awards",
+    },
+    {
+      label: "Blogs 💻",
+      id: "Blogs",
+    },
+    {
+      label: "Testimonials 💐",
+      id: "Testimonials",
+    },
+    {
+      label: "About Website 📜",
+      id: "About Website",
+    },
   ];
   function handleAnchorClick(event, section) {
     event.preventDefault();
@@ -31,11 +65,13 @@
       <li>
         <a
           class="text-sm font-extralight"
-          href={`#${section}`}
+          href={`#${section.id}`}
           on:click={(e) => {
-            handleAnchorClick(e, section);
-          }}>{section}</a
+            handleAnchorClick(e, section.id);
+          }}
         >
+          {section.label}
+        </a>
       </li>
     {:else}
       <li><NormalText content="Woops! Nothing to see here..." /></li>
