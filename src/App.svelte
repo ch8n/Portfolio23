@@ -15,19 +15,18 @@
 </script>
 
 <main>
-  <div class="grid grid-cols-3">
+  <div class="container mx-auto border">
     
     <div class="col-span-3 mt-24 mb-8 grid justify-items-center">
       <MainIntro />
     </div>
 
-
-    <div class="flex-col col-span-1 max-w-xs">
+    <div class="invisible md:visible flex-col col-span-1 max-w-xs">
       <div class="mt-24 ms-4 sticky top-8">
         <Content />
       </div>
     </div>
-    
+
     <div class="flex-col col-span-2 pe-24">
       <Spacer />
       <Resume />
