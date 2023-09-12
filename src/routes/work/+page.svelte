@@ -1,5 +1,5 @@
 <script lang="ts">
-	let screenName = 'Home'
+	let screenName = 'Work Page'
 	import { onDestroy, onMount } from 'svelte'
 	onMount(() => console.log(`On Mount called! @ ${screenName}`))
 	onDestroy(() => console.log(`On Destory called! @ ${screenName}`))
@@ -16,4 +16,4 @@
 	</ul>
 </nav>
 
-<p class="text-3xl">Home Page</p>
+<p class="text-3xl">Work Page</p>
