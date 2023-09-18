@@ -1,19 +1,20 @@
 <script lang="ts">
-	let screenName = 'Work Page'
-	import { onDestroy, onMount } from 'svelte'
-	onMount(() => console.log(`On Mount called! @ ${screenName}`))
-	onDestroy(() => console.log(`On Destory called! @ ${screenName}`))
+	import type { PageData } from './$types'
+	export let data: PageData
+	let experiences = data.experience
 </script>
 
-<nav>
-	<ul>
-		<li>
-			<a href="/">Home</a>
-		</li>
-		<li>
-			<a href="/work">Work Experience</a>
-		</li>
-	</ul>
-</nav>
+<div class="p-1" />
 
-<p class="text-3xl">Work Page</p>
+<div class="grid grid-flow-col grid-rows-4 gap-4">
+	{#each experiences as experience}
+		<div class="p-8">
+			<p>{experience.designation}</p>
+			<p>{experience.company}</p>
+			<p>{experience.company_type}</p>
+			<p>{experience.location}</p>
+			<p>{experience.duration}</p>
+			<p>{experience.type}</p>
+		</div>
+	{/each}
+</div>
