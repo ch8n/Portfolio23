@@ -3,7 +3,7 @@
         {
             "designation": "Senior Software Engineer (Android)",
             "company": "Housing.com",
-            "company_type": "Digital Realestate",
+            "industry": "Digital Realestate",
             "location": "Gurgaon, Haryana",
             "duration": "[Aug 2021 – Present]",
             "type": "Full time"
@@ -11,7 +11,7 @@
         {
             "designation": "Software Engineer (Android)",
             "company": "Deutsche Telekom Digital Labs",
-            "company_type": "Telecommunication",
+            "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": "[Apr 2020 – Aug 2021]",
             "type": "Full time"
@@ -19,7 +19,7 @@
         {
             "designation": "Software Engineer (Android)",
             "company": "App Street Software Pvt. Ltd.",
-            "company_type": "Software Service",
+            "industry": "Software Service",
             "location": "Gurgaon, Haryana",
             "duration": "[Sep 2019 – March 2020]",
             "type": "Full time"
@@ -27,7 +27,7 @@
         {
             "designation": "Software Engineer (Android)",
             "company": "U2opia Mobiles",
-            "company_type": "AdTechnology",
+            "industry": "AdTechnology",
             "location": "Gurgaon, Haryana",
             "duration": "[June 2018 – August 2019]",
             "type": "Full time"
@@ -35,7 +35,7 @@
         {
             "designation": "Software Engineer (Android)",
             "company": "Olly Credit",
-            "company_type": "Fintechnology",
+            "industry": "Fintechnology",
             "location": "Gurgaon, Haryana",
             "duration": "[June 2018 – August 2019]",
             "type": "Full time"
@@ -43,7 +43,7 @@
         {
             "designation": "Software Consultant (Android)",
             "company": "Deutsche Telekom Digital Labs",
-            "company_type": "Telecommunication",
+            "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": 2020,
             "type": "Contract"
@@ -51,7 +51,7 @@
         {
             "designation": "Software Consultant (Android)",
             "company": "SehatQ",
-            "company_type": "Healthcare",
+            "industry": "Healthcare",
             "location": "Indonesia",
             "duration": 2019,
             "type": "Contract"
@@ -59,7 +59,7 @@
         {
             "designation": "Android Intern",
             "company": "Tech for Impact",
-            "company_type": "NGO",
+            "industry": "NGO",
             "location": "Connaught Place, New Delhi",
             "duration": 2017,
             "type": "Internship"
@@ -67,7 +67,7 @@
         {
             "designation": "Android Intern",
             "company": "Agbe Technologies",
-            "company_type": "Automobile Search",
+            "industry": "Automobile Search",
             "location": "Gurgaon, Haryana",
             "duration": 2016,
             "type": "Internship"
@@ -75,7 +75,7 @@
         {
             "designation": "Android Intern",
             "company": "CMC Limited, TATA",
-            "company_type": "Education Technology",
+            "industry": "Education Technology",
             "location": "Noida, New Delhi",
             "duration": 2015,
             "type": "Internship"
@@ -83,7 +83,7 @@
         {
             "designation": "Android Intern",
             "company": "ISST, NGO",
-            "company_type": "NGO",
+            "industry": "NGO",
             "location": "Police Station Kalyanpuri , New Delhi",
             "duration": 2014,
             "type": "Internship"
