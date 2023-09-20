@@ -8,8 +8,8 @@
             "duration": "[Aug 2021 – Present]",
             "type": "Full time",
             "style": {
-                "bg_hex": "#FEDC00",
-                "font_hex": "#6C1DD5",
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
                 "icon_path": "housing_bg_icon.svg"
             }
         },
@@ -21,8 +21,8 @@
             "duration": "[Apr 2020 – Aug 2021]",
             "type": "Full time",
             "style": {
-                "bg_hex": "#EE008C",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-pink-600",
+                "font_color": "text-white",
                 "icon_path": "tsystem_bg_icon.svg"
             }
         },
@@ -34,8 +34,8 @@
             "duration": "[Sep 2019 – March 2020]",
             "type": "Full time",
             "style": {
-                "bg_hex": "#F26B22",
-                "font_hex": "#303030",
+                "bg_color": "bg-orange-500",
+                "font_color": "text-zinc-800",
                 "icon_path": "appsteet_bg_icon.svg"
             }
         },
@@ -47,8 +47,8 @@
             "duration": "[June 2018 – August 2019]",
             "type": "Full time",
             "style": {
-                "bg_hex": "#8D30E1",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-purple-600",
+                "font_color": "text-white",
                 "icon_path": "u2opia_bg_icon.svg"
             }
         },
@@ -60,8 +60,8 @@
             "duration": "[June 2018 – August 2019]",
             "type": "Full time",
             "style": {
-                "bg_hex": "#0014A6",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-blue-800",
+                "font_color": "text-white",
                 "icon_path": "olly_bg_icon.svg"
             }
         },
@@ -73,8 +73,8 @@
             "duration": 2020,
             "type": "Contract",
             "style": {
-                "bg_hex": "#EE008C",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-pink-600",
+                "font_color": "text-white",
                 "icon_path": "tsystem_bg_icon.svg"
             }
         },
@@ -86,8 +86,8 @@
             "duration": 2019,
             "type": "Contract",
             "style": {
-                "bg_hex": "#509EA0",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-slate-500",
+                "font_color": "text-white",
                 "icon_path": "sehatq_bg_icon.svg"
             }
         },
@@ -99,8 +99,8 @@
             "duration": 2017,
             "type": "Internship",
             "style": {
-                "bg_hex": "#509EA0",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-teal-500",
+                "font_color": "text-white",
                 "icon_path": "techimpact_bg_icon.svg"
             }
         },
@@ -112,8 +112,8 @@
             "duration": 2016,
             "type": "Internship",
             "style": {
-                "bg_hex": "#85B5D4",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-slate-400",
+                "font_color": "text-white",
                 "icon_path": "agbe_bg_icon.svg"
             }
         },
@@ -125,8 +125,8 @@
             "duration": 2015,
             "type": "Internship",
             "style": {
-                "bg_hex": "#3F7AB6",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-blue-400",
+                "font_color": "text-white",
                 "icon_path": "tata_bg_icon.svg"
             }
         },
@@ -138,8 +138,8 @@
             "duration": 2014,
             "type": "Internship",
             "style": {
-                "bg_hex": "#9900CB",
-                "font_hex": "#FFFFFF",
+                "bg_color": "bg-fuchsia-700",
+                "font_color": "text-white",
                 "icon_path": "isst_bg_icon.svg"
             }
         }
