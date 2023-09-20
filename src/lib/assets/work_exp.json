@@ -71,7 +71,7 @@
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": 2020,
-            "type": "Contract",
+            "type": "Consultant",
             "style": {
                 "bg_color": "bg-pink-600",
                 "font_color": "text-white",
@@ -84,7 +84,7 @@
             "industry": "Healthcare",
             "location": "Indonesia",
             "duration": 2019,
-            "type": "Contract",
+            "type": "Consultant",
             "style": {
                 "bg_color": "bg-slate-500",
                 "font_color": "text-white",

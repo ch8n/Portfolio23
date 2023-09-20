@@ -1,6 +1,6 @@
 <script lang="ts">
 	import '../app.css'
-	import { toolbarItems } from '$lib/data/navigation'
+	import { toolbarItems } from '$lib/data/types'
 	import { page } from '$app/stores'
 	$: first = toolbarItems.find((item) => item.path === $page.route.id) || toolbarItems[0]
 	$: others = toolbarItems.filter((item) => item.path !== first?.path)
@@ -10,7 +10,7 @@
 	<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
 		<li>
 			<span class="text-black text-5xl font-semibold font-['Poppins']">
-				<a href={first.path}>{first.label}</a>
+				<a href={first.path.toString()}>{first.label}</a>
 			</span>
 		</li>
 
@@ -18,7 +18,7 @@
 			{#each others as item}
 				<span class="text-black text-md font-normal font-['Poppins']">
 					<li class="">
-						<a href={item.path}>{item.label}</a>
+						<a href={item.path.toString()}>{item.label}</a>
 					</li>
 				</span>
 			{/each}

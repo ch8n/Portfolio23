@@ -3,6 +3,20 @@ export type ToolbarItem = {
 	label: String
 }
 
+export type Experience = {
+	designation: string
+	company: string
+	industry: string
+	location: string
+	duration: string
+	type: string
+	style: {
+		bg_color: string
+		font_color: string
+		icon_path: string
+	}
+}
+
 export const toolbarItems: ToolbarItem[] = [
 	{
 		path: '/',
