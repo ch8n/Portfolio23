@@ -1,12 +1,17 @@
 {
-    "experience": [
+    "experiences": [
         {
             "designation": "Senior Software Engineer (Android)",
             "company": "Housing.com",
             "industry": "Digital Realestate",
             "location": "Gurgaon, Haryana",
             "duration": "[Aug 2021 – Present]",
-            "type": "Full time"
+            "type": "Full time",
+            "style": {
+                "bg_hex": "#FEDC00",
+                "font_hex": "#6C1DD5",
+                "icon_path": "housing_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Engineer (Android)",
@@ -14,7 +19,12 @@
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": "[Apr 2020 – Aug 2021]",
-            "type": "Full time"
+            "type": "Full time",
+            "style": {
+                "bg_hex": "#EE008C",
+                "font_hex": "#FFFFFF",
+                "icon_path": "tsystem_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Engineer (Android)",
@@ -22,7 +32,12 @@
             "industry": "Software Service",
             "location": "Gurgaon, Haryana",
             "duration": "[Sep 2019 – March 2020]",
-            "type": "Full time"
+            "type": "Full time",
+            "style": {
+                "bg_hex": "#F26B22",
+                "font_hex": "#303030",
+                "icon_path": "appsteet_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Engineer (Android)",
@@ -30,7 +45,12 @@
             "industry": "AdTechnology",
             "location": "Gurgaon, Haryana",
             "duration": "[June 2018 – August 2019]",
-            "type": "Full time"
+            "type": "Full time",
+            "style": {
+                "bg_hex": "#8D30E1",
+                "font_hex": "#FFFFFF",
+                "icon_path": "u2opia_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Engineer (Android)",
@@ -38,7 +58,12 @@
             "industry": "Fintechnology",
             "location": "Gurgaon, Haryana",
             "duration": "[June 2018 – August 2019]",
-            "type": "Full time"
+            "type": "Full time",
+            "style": {
+                "bg_hex": "#0014A6",
+                "font_hex": "#FFFFFF",
+                "icon_path": "olly_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Consultant (Android)",
@@ -46,7 +71,12 @@
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": 2020,
-            "type": "Contract"
+            "type": "Contract",
+            "style": {
+                "bg_hex": "#EE008C",
+                "font_hex": "#FFFFFF",
+                "icon_path": "tsystem_bg_icon.svg"
+            }
         },
         {
             "designation": "Software Consultant (Android)",
@@ -54,7 +84,12 @@
             "industry": "Healthcare",
             "location": "Indonesia",
             "duration": 2019,
-            "type": "Contract"
+            "type": "Contract",
+            "style": {
+                "bg_hex": "#509EA0",
+                "font_hex": "#FFFFFF",
+                "icon_path": "sehatq_bg_icon.svg"
+            }
         },
         {
             "designation": "Android Intern",
@@ -62,7 +97,12 @@
             "industry": "NGO",
             "location": "Connaught Place, New Delhi",
             "duration": 2017,
-            "type": "Internship"
+            "type": "Internship",
+            "style": {
+                "bg_hex": "#509EA0",
+                "font_hex": "#FFFFFF",
+                "icon_path": "techimpact_bg_icon.svg"
+            }
         },
         {
             "designation": "Android Intern",
@@ -70,7 +110,12 @@
             "industry": "Automobile Search",
             "location": "Gurgaon, Haryana",
             "duration": 2016,
-            "type": "Internship"
+            "type": "Internship",
+            "style": {
+                "bg_hex": "#85B5D4",
+                "font_hex": "#FFFFFF",
+                "icon_path": "agbe_bg_icon.svg"
+            }
         },
         {
             "designation": "Android Intern",
@@ -78,7 +123,12 @@
             "industry": "Education Technology",
             "location": "Noida, New Delhi",
             "duration": 2015,
-            "type": "Internship"
+            "type": "Internship",
+            "style": {
+                "bg_hex": "#3F7AB6",
+                "font_hex": "#FFFFFF",
+                "icon_path": "tata_bg_icon.svg"
+            }
         },
         {
             "designation": "Android Intern",
@@ -86,7 +136,12 @@
             "industry": "NGO",
             "location": "Police Station Kalyanpuri , New Delhi",
             "duration": 2014,
-            "type": "Internship"
+            "type": "Internship",
+            "style": {
+                "bg_hex": "#9900CB",
+                "font_hex": "#FFFFFF",
+                "icon_path": "isst_bg_icon.svg"
+            }
         }
     ]
 }
