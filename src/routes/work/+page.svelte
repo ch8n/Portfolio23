@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { PageData } from './$types'
-	import { goto } from '$app/navigation'
 	import type { Experience } from '$lib/data/types'
 
 	export let data: PageData
@@ -26,18 +25,6 @@
 			internExperiences.push(experience)
 		}
 	})
-
-	const slugify = (input: string) =>
-		input
-			.toLowerCase()
-			.replace(/[\s_]+/g, '-')
-			.replace(/[^\w-]+/g, '')
-			.replace(/--+/g, '-')
-
-	const navigateWorkExp = (experience: { company: string }) => {
-		let slug = slugify(experience.company)
-		goto(`/${slug}`)
-	}
 </script>
 
 <div>

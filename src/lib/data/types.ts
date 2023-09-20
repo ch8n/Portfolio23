@@ -25,17 +25,18 @@ export const toolbarItems: ToolbarItem[] = [
 	{
 		path: '/work',
 		label: 'Work Experience'
-	},
-	{
-		path: '/contributions',
-		label: 'Contributions'
-	},
-	{
-		path: '/blogs',
-		label: 'Blogs'
-	},
-	{
-		path: '/updates',
-		label: 'Updates'
 	}
+	// ,
+	// {
+	// 	path: '/contributions',
+	// 	label: 'Contributions'
+	// },
+	// {
+	// 	path: '/blogs',
+	// 	label: 'Blogs'
+	// },
+	// {
+	// 	path: '/updates',
+	// 	label: 'Updates'
+	// }
 ]
