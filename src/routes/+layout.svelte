@@ -6,31 +6,35 @@
 	$: others = toolbarItems.filter((item) => item.path !== first?.path)
 </script>
 
-<nav class="container mx-auto mt-16 mb-6 px-8">
-	<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
-		<li>
-			<span class="text-black text-5xl font-semibold">
-				<a href={first.path.toString()}>{first.label}</a>
-			</span>
-		</li>
-
-		<ul
-			class="grid text-center h-12 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 md:grid-rows-1"
-		>
-			{#each others as item}
-				<span class="text-black text-md">
-					<li class="">
-						<a href={item.path.toString()}>{item.label}</a>
-					</li>
+<div class="bg-gray-800 text-white">
+	<nav class="container mx-auto pt-16 px-8">
+		<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
+			<li>
+				<span class="text-5xl font-semibold">
+					<a href={first.path.toString()}>{first.label}</a>
 				</span>
-			{/each}
-		</ul>
-	</ul>
-</nav>
+			</li>
 
-<main class="container mx-auto p-4">
-	<slot />
-</main>
+			<ul
+				class="grid items-center text-center h-12 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 md:grid-rows-1"
+			>
+				{#each others as item}
+					<span class=" text-md">
+						<li class="">
+							<a href={item.path.toString()}>{item.label}</a>
+						</li>
+					</span>
+				{/each}
+			</ul>
+		</ul>
+	</nav>
+
+	<div class="bg-gray-800">
+		<main class="container mx-auto p-4">
+			<slot />
+		</main>
+	</div>
+</div>
 
 <style lang="postcss">
 	:global() {
