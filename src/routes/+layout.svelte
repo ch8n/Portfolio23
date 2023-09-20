@@ -6,17 +6,19 @@
 	$: others = toolbarItems.filter((item) => item.path !== first?.path)
 </script>
 
-<nav class="container px-24 mx-auto my-24">
+<nav class="container mx-auto mt-16 mb-6 px-8">
 	<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
 		<li>
-			<span class="text-black text-5xl font-semibold font-['Poppins']">
+			<span class="text-black text-5xl font-semibold">
 				<a href={first.path.toString()}>{first.label}</a>
 			</span>
 		</li>
 
-		<ul class="grid items-center text-center h-12 grid-cols-4 grid-rows-1">
+		<ul
+			class="grid text-center h-12 lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 md:grid-rows-1"
+		>
 			{#each others as item}
-				<span class="text-black text-md font-normal font-['Poppins']">
+				<span class="text-black text-md">
 					<li class="">
 						<a href={item.path.toString()}>{item.label}</a>
 					</li>
@@ -26,7 +28,7 @@
 	</ul>
 </nav>
 
-<main class="container px-24 mx-auto my-24">
+<main class="container mx-auto p-4">
 	<slot />
 </main>
 
