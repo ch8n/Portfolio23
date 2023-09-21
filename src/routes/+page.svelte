@@ -27,6 +27,8 @@
 		{ icon: faYoutube, url: data.youtube, name: 'Youtube' },
 		{ icon: faDiscord, url: data.discord, name: 'Discord' }
 	]
+
+	let qualification = data.education
 </script>
 
 <div class="p-4">
@@ -128,6 +130,38 @@
 				<span class="text-teal-300 text-base font-semibold">
 					<a href={data.linkedIn} target="_blank">LinkedIn</a>
 				</span>, for more.
+			</p>
+		</div>
+
+		<!-- qualifications -->
+		<div class="mt-8">
+			<a class="text-3xl font-semibold" href="">Qualification 🎓</a>
+
+			<p class="px-4 my-4 text-white text-base font-normal">My College and Schooling Details:</p>
+			<div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3">
+				{#each qualification as qualify}
+					<div class="px-8 py-4">
+						<p class="text-lg font-semibold">{qualify.course}</p>
+						<p class="text-sm font-normal">{qualify.school}</p>
+						<p class="text-sm font-normal">
+							<a href={qualify.marksheet}
+								>Download Marksheet from
+								<span class="text-teal-300 text-base font-semibold">here</span>
+							</a>
+						</p>
+						<p class="text-sm font-normal">CGPA - {qualify.cgpa}</p>
+					</div>
+				{/each}
+			</div>
+		</div>
+
+		<!-- testimonials -->
+		<div class="mt-8">
+			<a class="text-3xl font-semibold" href="">Testimonials 💐</a>
+
+			<p class="px-4 my-4 text-white text-base font-normal">
+				I’m ever greatful to the community who spread kinds words about me, read or write one from
+				<span class="text-teal-300 text-base font-semibold"><a href="/testimonials">here</a></span>.
 			</p>
 		</div>
 	</div>
