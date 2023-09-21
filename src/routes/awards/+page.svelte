@@ -28,7 +28,7 @@
 		</ul>
 	</div>
 
-	<div class="ms-16 mt-8 text-white text-3xl font-semibold">Awards 🏆</div>
+	<div class="ms-8 mt-8 text-white text-5xl font-semibold">Awards 🏆</div>
 
 	<!-- content -->
 	<div class="grid grid-rows-1 grid-cols-1 gap-6 pe-8">

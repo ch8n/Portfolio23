@@ -49,6 +49,8 @@
 		</ul>
 	</div>
 
+	<div class="ms-8 mt-8 mb-4 text-white text-5xl font-semibold">Work Experience ☕️</div>
+
 	<!-- content -->
 	<div class="grid grid-rows-1 grid-cols-1 gap-6 pe-8">
 		<!-- separator -->

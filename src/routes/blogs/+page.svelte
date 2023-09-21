@@ -25,8 +25,6 @@
 		</ul>
 	</div>
 
-	<div class="ms-16 mt-8 text-white text-3xl font-semibold">Awards 🏆</div>
-
 	<p class="text-5xl">Contributions Page</p>
 	list of bugfixes, video, blogs etc
 </div>

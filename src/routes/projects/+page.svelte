@@ -26,8 +26,6 @@
 		</ul>
 	</div>
 
-	<div class="ms-16 mt-8 text-white text-3xl font-semibold">Awards 🏆</div>
-
 	<p class="text-5xl">Personal Project Page</p>
 	list of personal projects and professional projects
 </div>

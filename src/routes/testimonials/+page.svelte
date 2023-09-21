@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { PageData } from '../contributions copy/$types'
+	import type { PageData } from './$types'
 	export let data: PageData
 </script>
 
@@ -24,8 +24,6 @@
 			</li>
 		</ul>
 	</div>
-
-	<div class="ms-16 mt-8 text-white text-3xl font-semibold">Awards 🏆</div>
 
 	<p class="text-5xl">Testimonials 💐 Page</p>
 	list of Testimonials, form to submit one etc

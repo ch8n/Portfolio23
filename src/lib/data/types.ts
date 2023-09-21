@@ -9,7 +9,7 @@ export type Experience = {
 	industry: string
 	location: string
 	duration: string
-	join_year:number
+	join_year: number
 	type: string
 	style: {
 		bg_color: string
@@ -24,7 +24,7 @@ export type Award = {
 	type: string
 	description: string
 	time: string
-	year:number
+	year: number
 	proof_link: string
 	style: {
 		bg_color: string
@@ -43,15 +43,15 @@ export const toolbarItems: ToolbarItem[] = [
 		label: 'Work Experience'
 	},
 	{
-		path: '/contributions',
-		label: 'Contributions'
-	},
-	{
 		path: '/blogs',
 		label: 'Blogs'
 	},
 	{
-		path: '/updates',
-		label: 'Updates'
+		path: '/projects',
+		label: 'Projects'
+	},
+	{
+		path: '/awards',
+		label: 'Awards'
 	}
 ]
