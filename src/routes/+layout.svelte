@@ -6,11 +6,11 @@
 	$: others = toolbarItems.filter((item) => item.path !== first?.path)
 </script>
 
-<div class=" bg-gray-800 text-white">
+<div class="bg-gray-800 text-white">
 	<nav class="sticky top-0 mx-auto pt-8 pb-6 px-8 bg-gray-800 z-50 drop-shadow-lg">
 		<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
 			<li>
-				<span class="text-5xl font-semibold">
+				<span class="text-5xl font-semibold px-16 items-center">
 					<a href={first.path.toString()}>{first.label}</a>
 				</span>
 			</li>
@@ -32,6 +32,8 @@
 	<main class="container mx-auto p-4">
 		<slot />
 	</main>
+	<!-- space -->
+	<div class="h-60" />
 </div>
 
 <style lang="postcss">
