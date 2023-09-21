@@ -6,6 +6,7 @@
             "industry": "Digital Realestate",
             "location": "Gurgaon, Haryana",
             "duration": "[Aug 2021 – Present]",
+            "join_year" : 2021,
             "type": "Full time",
             "style": {
                 "bg_color": "bg-yellow-400",
@@ -19,6 +20,7 @@
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": "[Apr 2020 – Aug 2021]",
+            "join_year" : 2020,
             "type": "Full time",
             "style": {
                 "bg_color": "bg-pink-600",
@@ -31,6 +33,7 @@
             "company": "App Street Software Pvt. Ltd.",
             "industry": "Software Service",
             "location": "Gurgaon, Haryana",
+            "join_year" : 2019,
             "duration": "[Sep 2019 – March 2020]",
             "type": "Full time",
             "style": {
@@ -44,6 +47,7 @@
             "company": "U2opia Mobiles",
             "industry": "AdTechnology",
             "location": "Gurgaon, Haryana",
+            "join_year" : 2018,
             "duration": "[June 2018 – August 2019]",
             "type": "Full time",
             "style": {
@@ -57,6 +61,7 @@
             "company": "Olly Credit",
             "industry": "Fintechnology",
             "location": "Gurgaon, Haryana",
+            "join_year" : 2018,
             "duration": "[June 2018 – August 2019]",
             "type": "Full time",
             "style": {
@@ -70,6 +75,7 @@
             "company": "Deutsche Telekom Digital Labs",
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
+            "join_year" : 2020,
             "duration": 2020,
             "type": "Consultant",
             "style": {
@@ -83,6 +89,7 @@
             "company": "SehatQ",
             "industry": "Healthcare",
             "location": "Indonesia",
+            "join_year" : 2019,
             "duration": 2019,
             "type": "Consultant",
             "style": {
@@ -96,6 +103,7 @@
             "company": "Tech for Impact",
             "industry": "NGO",
             "location": "Connaught Place, New Delhi",
+            "join_year" : 2017,
             "duration": 2017,
             "type": "Internship",
             "style": {
@@ -109,6 +117,7 @@
             "company": "Agbe Technologies",
             "industry": "Automobile Search",
             "location": "Gurgaon, Haryana",
+            "join_year" : 2016,
             "duration": 2016,
             "type": "Internship",
             "style": {
@@ -122,6 +131,7 @@
             "company": "CMC Limited, TATA",
             "industry": "Education Technology",
             "location": "Noida, New Delhi",
+            "join_year" : 2015,
             "duration": 2015,
             "type": "Internship",
             "style": {
@@ -135,6 +145,7 @@
             "company": "ISST, NGO",
             "industry": "NGO",
             "location": "Police Station Kalyanpuri , New Delhi",
+            "join_year" : 2014,
             "duration": 2014,
             "type": "Internship",
             "style": {

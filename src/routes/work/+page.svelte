@@ -56,7 +56,7 @@
 			<!-- line -->
 			<div class="col-span-1 relative">
 				<div class="z-10 absolute top-6 start-24">
-					<div class={`ml-1 w-5 h-5 bg-white rounded-full drop-shadow-lg`} />
+					<div class={`ml-1 w-5 h-5 bg-white rounded-full`} />
 				</div>
 
 				<div class="absolute z-0 left-28 -ml-0.5 w-0.5 h-screen bg-white" />
@@ -73,7 +73,7 @@
 				<!-- line -->
 				<div class="col-span-1 relative">
 					<div class="flex z-10 absolute top-16 left-8">
-						<p class="place-self-center font-semibold px-2">2020</p>
+						<p class="place-self-center font-semibold px-2">{experience.join_year}</p>
 
 						<div class={`w-12 h-12 ${experience.style.bg_color} rounded-full  drop-shadow-lg`}>
 							<img src={`./assets/${experience.style.icon_path}`} alt={experience.company} />
@@ -85,7 +85,7 @@
 
 				<!-- content -->
 				<div
-					class={`col-span-2 start-20 place-self-center relative overflow-clip w-4/5 p-8  ${experience.style.bg_color} bg-opacity-95 rounded-tr-[36px] rounded-bl-[36px] rounded-br-[36px] drop-shadow-lg`}
+					class={`col-span-2 start-20 place-self-center relative overflow-clip w-4/5 p-8 ${experience.style.bg_color} bg-opacity-95 rounded-tr-[36px] rounded-bl-[36px] rounded-br-[36px] drop-shadow-lg`}
 				>
 					<div class="absolute right-1 top-5 w-64 h-64 rounded-full z-0">
 						<img src={`./assets/${experience.style.icon_path}`} alt={experience.company} />
@@ -127,7 +127,7 @@
 				<!-- line -->
 				<div class="col-span-1 relative">
 					<div class="flex z-10 absolute top-16 left-8">
-						<p class="place-self-center font-semibold px-2">2020</p>
+						<p class="place-self-center font-semibold px-2">{experience.join_year}</p>
 
 						<div class={`w-12 h-12 ${experience.style.bg_color} rounded-full  drop-shadow-lg`}>
 							<img src={`./assets/${experience.style.icon_path}`} alt={experience.company} />
@@ -181,7 +181,7 @@
 				<!-- line -->
 				<div class="col-span-1 relative">
 					<div class="flex z-10 absolute top-16 left-8">
-						<p class="place-self-center font-semibold px-2">2020</p>
+						<p class="place-self-center font-semibold px-2">{experience.join_year}</p>
 
 						<div class={`w-12 h-12 ${experience.style.bg_color} rounded-full  drop-shadow-lg`}>
 							<img src={`./assets/${experience.style.icon_path}`} alt={experience.company} />
