@@ -1,9 +1,5 @@
 <script lang="ts">
 	import { goto } from '$app/navigation'
-
-	const gotoAwards = () => {
-		goto('/awards')
-	}
 </script>
 
 <div class="p-4">
@@ -30,12 +26,23 @@
 
 	<!-- awards -->
 	<div class="mt-4">
-		<div class=" text-white text-3xl font-semibold" on:click={gotoAwards}>Awards 🏆</div>
+		<a class="text-3xl font-semibold" href="/awards">Awards 🏆</a>
 
 		<p class="px-4 my-4 text-white text-sm font-normal">
 			You can see list of Awards I have won over my contibution in the communities and participation
 			into various challenges and events from
-			<span class="text-teal-300 text-sm font-semibold" on:click={gotoAwards}>here</span>
+			<span class="text-teal-300 text-sm font-semibold"><a href="/awards">HERE</a></span>
+		</p>
+	</div>
+
+	<!-- awards -->
+	<div class="mt-4">
+		<a class="text-3xl font-semibold" href="/awards">Awards 🏆</a>
+
+		<p class="px-4 my-4 text-white text-sm font-normal">
+			You can see list of Awards I have won over my contibution in the communities and participation
+			into various challenges and events from
+			<span class="text-teal-300 text-sm font-semibold"><a href="/awards">HERE</a></span>
 		</p>
 	</div>
 </div>
