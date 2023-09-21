@@ -39,5 +39,9 @@
     "test:unit": "vitest"
   },
   "type": "module",
-  "types": "module"
+  "types": "module",
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "svelte-fa": "^3.0.4"
+  }
 }
