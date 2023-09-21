@@ -6,8 +6,8 @@
 	$: others = toolbarItems.filter((item) => item.path !== first?.path)
 </script>
 
-<div class="container bg-gray-800 text-white">
-	<nav class=" mx-auto pt-16 px-8">
+<div class=" bg-gray-800 text-white">
+	<nav class="sticky top-0 mx-auto pt-8 pb-6 px-8 bg-gray-800 z-50 drop-shadow-lg">
 		<ul class="grid items-center h-10 grid-cols-2 grid-rows-1">
 			<li>
 				<span class="text-5xl font-semibold">
@@ -29,7 +29,7 @@
 		</ul>
 	</nav>
 
-	<main class="mx-auto p-4">
+	<main class="container mx-auto p-4">
 		<slot />
 	</main>
 </div>

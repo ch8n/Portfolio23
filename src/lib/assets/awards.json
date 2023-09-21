@@ -1,0 +1,74 @@
+{
+    "awards": [
+        {
+            "title": "Android Tech Star",
+            "organization": "India Mentor",
+            "type": "Certificate",
+            "description": "Mentoring in Android Communities",
+            "time": "[30-Dec-2020]",
+            "year": 2020,
+            "proof_link": "",
+            "style": {
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
+                "icon_path": "housing_bg_icon.svg"
+            }
+        },
+        {
+            "title": "Featured Article",
+            "organization": "Android Weekly",
+            "type": "Featured",
+            "description": "",
+            "time": "[30-Dec-2020]",
+            "year": 2021,
+            "proof_link": "",
+            "style": {
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
+                "icon_path": "housing_bg_icon.svg"
+            }
+        },
+        {
+            "title": "Core Team Member @ Kotlin Mumbai",
+            "organization": "Kotlin Mumbai",
+            "type": "Achievement",
+            "description": "Added as Core Team Member of Kotlin Mumbai Community",
+            "time": "[30-Dec-2020]",
+            "year": 2021,
+            "proof_link": "",
+            "style": {
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
+                "icon_path": "housing_bg_icon.svg"
+            }
+        },
+        {
+            "title": "Jetpack Compose Week 2 Challenge Winner",
+            "organization": "Google",
+            "type": "Award",
+            "description": "Build Compose application challenge",
+            "time": "[30-Dec-2020]",
+            "year": 2021,
+            "proof_link": "",
+            "style": {
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
+                "icon_path": "housing_bg_icon.svg"
+            }
+        },
+        {
+            "title": "Devfest Quiz - Day 3 Winner",
+            "organization": "Google",
+            "type": "Award",
+            "description": "Devfest Quiz winner on Day 3",
+            "time": "[30-Dec-2020]",
+            "year": 2021,
+            "proof_link": "",
+            "style": {
+                "bg_color": "bg-yellow-400",
+                "font_color": "text-violet-700",
+                "icon_path": "housing_bg_icon.svg"
+            }
+        }
+    ]
+}
