@@ -1,6 +1,6 @@
-export type ToolbarItem = {
-	path: String
-	label: String
+export type TabItem = {
+	path: string
+	label: string
 }
 
 export type Experience = {
@@ -33,7 +33,7 @@ export type Award = {
 	}
 }
 
-export const toolbarItems: ToolbarItem[] = [
+export const toolbarItems: TabItem[] = [
 	{
 		path: '/',
 		label: 'Home'
@@ -45,10 +45,6 @@ export const toolbarItems: ToolbarItem[] = [
 	{
 		path: '/blogs',
 		label: 'Blogs'
-	},
-	{
-		path: '/projects',
-		label: 'Projects'
 	},
 	{
 		path: '/awards',
