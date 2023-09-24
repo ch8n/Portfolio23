@@ -1,8 +1,0 @@
----
-title: 'MarkDown title'
-author: ch8n
-date: 2023-08-24
-layout: codelab
----
-
-# Hello from markdown!

@@ -3,6 +3,15 @@ export type TabItem = {
 	label: string
 }
 
+export type Blog = {
+	title: string
+	slug: string
+	description: string
+	date: string
+	categories: string[]
+	published: boolean
+}
+
 export type Experience = {
 	designation: string
 	company: string
