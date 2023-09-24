@@ -1,12 +1,15 @@
 //import adapter from '@sveltejs/adapter-auto'
 //import adapter from 'svelte-adapter-bun'
+import { mdsvex } from 'mdsvex'
 import { vitePreprocess } from '@sveltejs/kit/vite'
 import { importAssets } from 'svelte-preprocess-import-assets'
 import adapter from '@sveltejs/adapter-static'
+import mdsvexConfig from './mdsvex.config.js'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: [importAssets(), vitePreprocess()],
+	extensions: ['.svelte', ...mdsvexConfig.extensions],
+	preprocess: [importAssets(), vitePreprocess(), mdsvex(mdsvexConfig)],
 	kit: {
 		adapter: adapter({
 			// default options are shown. On some platforms
