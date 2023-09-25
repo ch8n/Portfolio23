@@ -4,13 +4,6 @@
 	import type { PageData } from './$types'
 	export let data: PageData
 
-	let selectedTab: TabItem | null = null
-
-	const onTabSelect = (tab: TabItem) => {
-		selectedTab = tab
-		goto(tab.path)
-	}
-
 	let tabs: TabItem[] = [
 		{
 			path: '/blogs',
@@ -29,6 +22,13 @@
 			label: 'Projects'
 		}
 	]
+
+	let selectedTab: TabItem = tabs[0]
+
+	const onTabSelect = (tab: TabItem) => {
+		selectedTab = tab
+		goto(tab.path)
+	}
 </script>
 
 <div>
@@ -83,7 +83,7 @@
 			</ul>
 		</div>
 
-		<div class="py-4" />
+		<div class="pt-4 pb-2" />
 		<slot />
 	</div>
 </div>
