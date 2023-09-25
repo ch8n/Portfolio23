@@ -52,8 +52,8 @@ export const toolbarItems: TabItem[] = [
 		label: 'Work Experience'
 	},
 	{
-		path: '/blogs',
-		label: 'Blogs'
+		path: '/contributions',
+		label: 'Contributions'
 	},
 	{
 		path: '/awards',
