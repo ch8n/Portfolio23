@@ -11,11 +11,13 @@
 	<section class="container mx-auto">
 		<ul class="list-none">
 			{#each blogs as post}
-				<li class="border-2 rounded-xl p-4 mb-8">
-					<a href={post.slug} class="text-3xl">{post.title}</a>
-					<p class="text-base">{post.description}</p>
-					<p class="text-sm">{formatDate(post.date)}</p>
-				</li>
+				<a href={`/posts/${post.slug}`}>
+					<li class="border-2 rounded-xl p-4 mb-8">
+						<a class="text-3xl my-2">{post.title}</a>
+						<p class="text-base my-2">{post.description}</p>
+						<p class="text-sm my-2">{formatDate(post.date)}</p>
+					</li>
+				</a>
 			{/each}
 		</ul>
 	</section>
