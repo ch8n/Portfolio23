@@ -3,6 +3,15 @@ export type TabItem = {
 	label: string
 }
 
+export type Series = {
+	metadata: {
+		title: string
+		description: string
+		date: string
+		published: true
+	}
+	blogs: Blog[]
+}
 export type Blog = {
 	title: string
 	slug: string

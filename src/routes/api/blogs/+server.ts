@@ -1,27 +1,65 @@
 import { json } from '@sveltejs/kit'
-import type { Blog } from '$lib/data/types'
+import type { Blog, Series } from '$lib/data/types'
+import { promises as fsPromises, Stats } from 'fs'
+import { readFile } from 'fs/promises'
+import { join, extname } from 'path'
+
+const getAllCodeLabJson = async (parentFolder: string) => {
+	try {
+		const jsonFiles: string[] = []
+		const stack: string[] = [parentFolder]
+
+		while (stack.length) {
+			const currentFolder = stack.pop()!
+			const files = await fsPromises.readdir(currentFolder)
+
+			for (const file of files) {
+				const filePath = join(currentFolder, file)
+				const fileStat: Stats = await fsPromises.stat(filePath)
+
+				if (fileStat.isDirectory()) {
+					stack.push(filePath)
+				} else if (extname(file) === '.json') {
+					jsonFiles.push(filePath)
+				}
+			}
+		}
+		return jsonFiles
+	} catch (error) {
+		console.error(error)
+		return []
+	}
+}
+
+const readJsonFile = async (filePath: string) => {
+	try {
+		const fileContents = await readFile(filePath, 'utf8')
+		return JSON.parse(fileContents)
+	} catch (error) {
+		throw new Error(`Error reading JSON file: ${error}`)
+	}
+}
 
 async function getBlogPosts() {
-	let blogs: Blog[] = []
+	const currentDirectory: string = process.cwd()
+	const codelabPath: string = join(currentDirectory, '/src/lib/codelab')
+	const jsonCodelabFilePaths: string[] = await getAllCodeLabJson(codelabPath)
+	const jsonContentsPromise = jsonCodelabFilePaths.map(async (path) => {
+		let jsonObject = await readJsonFile(path)
+		return jsonObject satisfies Series
+	})
+	const series: Series[] = await Promise.all(jsonContentsPromise)
+	const activeSeries = series.filter((series) => series.metadata.published === true)
+	console.log(activeSeries)
+	const activeSeriesWithBlogs = activeSeries.map((series) => {
+		return series.blogs.filter((blog: Blog) => blog.published === true)
+	})
 
-	const paths = import.meta.glob('/src/lib/blogs/*.md', { eager: true })
+	// blogs = blogs.sort(
+	// 	(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
+	// )
 
-	for (const path in paths) {
-		const file = paths[path]
-		const slug = path.split('/').at(-1)?.replace('.md', '')
-
-		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Blog, 'slug'>
-			const blog = { ...metadata, slug } satisfies Blog
-			blog.published && blogs.push(blog)
-		}
-	}
-
-	blogs = blogs.sort(
-		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
-	)
-
-	return blogs
+	return activeSeriesWithBlogs
 }
 
 export async function GET() {

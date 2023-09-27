@@ -36,7 +36,4 @@
 	<div class="h-60" />
 </div>
 
-<style lang="postcss">
-	:global() {
-	}
-</style>
+

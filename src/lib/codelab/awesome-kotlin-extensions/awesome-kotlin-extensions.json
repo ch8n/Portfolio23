@@ -1,0 +1,17 @@
+{
+    "metadata": {
+        "title": "Awesome Kotlin Extension",
+        "description": "Super useful collection of my Kotlin Extension",
+        "date": "26-09-2023",
+        "published": true
+    },
+    "blogs": [
+        {
+            "title": "Try or Null ?: Value",
+            "description": "Kotlin Extension for Value or Null",
+            "date": "26-09-2023",
+            "published": true,
+            "slug": "try-or-null"
+        }
+    ]
+}
