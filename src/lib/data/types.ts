@@ -9,6 +9,7 @@ export type Series = {
 		description: string
 		date: string
 		published: true
+		slug: string
 	}
 	blogs: Blog[]
 }

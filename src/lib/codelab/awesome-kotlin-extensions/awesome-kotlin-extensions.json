@@ -3,7 +3,8 @@
         "title": "Awesome Kotlin Extension",
         "description": "Super useful collection of my Kotlin Extension",
         "date": "26-09-2023",
-        "published": true
+        "published": true,
+        "slug": "awesome-kotlin-extension"
     },
     "blogs": [
         {

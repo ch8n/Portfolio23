@@ -40,7 +40,7 @@ const readJsonFile = async (filePath: string) => {
 	}
 }
 
-async function getBlogPosts() {
+async function getCodelabs(): Promise<Series[]> {
 	const currentDirectory: string = process.cwd()
 	const codelabPath: string = join(currentDirectory, '/src/lib/codelab')
 	const jsonCodelabFilePaths: string[] = await getAllCodeLabJson(codelabPath)
@@ -50,9 +50,10 @@ async function getBlogPosts() {
 	})
 	const series: Series[] = await Promise.all(jsonContentsPromise)
 	const activeSeries = series.filter((series) => series.metadata.published === true)
-	console.log(activeSeries)
 	const activeSeriesWithBlogs = activeSeries.map((series) => {
-		return series.blogs.filter((blog: Blog) => blog.published === true)
+		let updatedBlogs = series.blogs.filter((blog: Blog) => blog.published === true)
+		series.blogs = updatedBlogs
+		return series
 	})
 
 	// blogs = blogs.sort(
@@ -63,6 +64,7 @@ async function getBlogPosts() {
 }
 
 export async function GET() {
-	const blogPosts = await getBlogPosts()
+	const blogPosts: Series[] = await getCodelabs()
+	console.log(blogPosts)
 	return json(blogPosts)
 }
