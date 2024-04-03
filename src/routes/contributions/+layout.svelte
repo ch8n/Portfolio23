@@ -6,16 +6,16 @@
 
 	let tabs: TabItem[] = [
 		{
+			path: '/contributions/github',
+			label: 'Github'
+		},
+		{
 			path: '/contributions',
 			label: 'Blogs'
 		},
 		{
 			path: '/contributions/videos',
 			label: 'Videos'
-		},
-		{
-			path: '/contributions/github',
-			label: 'Github'
 		},
 		{
 			path: '/contributions/projects',

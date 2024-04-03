@@ -1,1 +1,1 @@
-<p class="text-5xl">Hello world!</p>
+<p class="text-5xl">Hello Blogs!</p>

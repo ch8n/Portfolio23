@@ -6,6 +6,7 @@
 <div>
 	<!-- header -->
 	<p>Projects Section</p>
+	<p class="text-5xl">Hello Projects!</p>
 
 	<div />
 </div>
