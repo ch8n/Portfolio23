@@ -224,6 +224,195 @@
             "link": "https://github.com/ch8n/Android-PaintDemo",
             "description": "Android Paint App demo",
             "tech": "Kotlin, Android, Canvas"
+        },
+        {
+            "title": "Korge - Game Engine Sample",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/KorgeSample",
+            "description": "Sample for korge game engine, build character with sprite and controller",
+            "tech": "Kotlin, Android, Korge"
+        },
+        {
+            "title": "Horizontal Expanding Cards Example",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Expanding-Cards-Compose",
+            "description": "Horizontally expanding cards example in Jetpack Compose",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "AndroidDevChallenge - Pet Adoption App",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/PugDoper-Compose-ADC-1",
+            "description": "PupDopter 🐕 is Puppy adoption app build with ❤️ and 🚀 Jetpack Compose AndroidDevChallenge",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "AndroidDevChallenge - Countdown timer App",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Countie-Compose-ADC-2",
+            "description": "Countdown timer application build with ❤️ and 🚀 jetpack compose",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "AndroidDevChallenge - Bloom App",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/theBloom-Compose-ADC-3",
+            "description": "Android Dev Challenge week 3 -Bloom, Challenge for Asian Pacific Zone",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Weather App Home Assigment",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Weather-app",
+            "description": "Weather App Home Assigment",
+            "tech": "Kotlin, Android"
+        },
+        {
+            "title": "Recycler View Implemented from Scratch",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Recycler-View-Internals",
+            "description": "Implementation of Recycler View from Scratch",
+            "tech": "Kotlin, Android"
+        },
+        {
+            "title": "Taskie - Todo App in Sleek Design",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Taskie-Mvvm",
+            "description": "A simple Notes Android app for fun",
+            "tech": "Kotlin, Android"
+        },
+        {
+            "title": "Jetpack Compose Desktop Galaxy Example",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-Stars",
+            "description": "Jetpack Compose Desktop Galaxy Example",
+            "tech": "Kotlin, Desktop, Jetpack Compose, Canvas"
+        },
+        {
+            "title": "2D rain Particle System on Desktop Compose Canvas",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-Rain",
+            "description": "Raining 3D particle System build using Canvas API Jetpack Compose Desktop 🚀",
+            "tech": "Kotlin, Desktop, Jetpack Compose, Canvas"
+        },
+        {
+            "title": "Compose Space-Invaders 👾",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-SpaceWars",
+            "description": "Alien invasion 👾 is back! this time specially on Jetpack Compose Desktop 🚀, using Canvas API 🎨",
+            "tech": "Kotlin, Desktop, Jetpack Compose, Canvas"
+        },
+        {
+            "title": "A Social Media App",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/ASocialApp",
+            "description": "Mock Social media application similar to linkedIn",
+            "tech": "Kotlin, Desktop, Jetpack Compose"
+        },
+        {
+            "title": "Ktor-Android-Release-API",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Ktor-Android-Release-API",
+            "description": "Kotlin Ktor Multi-Platformer application for tracking android and Kotlin releases",
+            "tech": "Kotlin, Ktor, Server"
+        },
+        {
+            "title": "Compose-Fruit-Ninja",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-Fruit-Ninja",
+            "description": "Welcome Fruit Ninja 🥝 on Jetpack Compose Desktop 🚀, using Canvas API 🎨",
+            "tech": "Kotlin, Desktop, Canvas, Jetpack Compose"
+        },
+        {
+            "title": "Compose-boids-flocking",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-boids-flocking",
+            "description": "Jetpack Compose Boids | Flocking Insect 🐜. bird or Fish simulation using Jetpack Compose Desktop 🚀, using Canvas API 🎨",
+            "tech": "Kotlin, Desktop, Canvas, Jetpack Compose"
+        },
+        {
+            "title": "Over-Android-Assigment",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Private, Completed",
+            "link": "https://github.com/ch8n/Over-Android-Assigment",
+            "description": "Take home assigment of Over Company",
+            "tech": "Kotlin, Desktop, Canvas, Jetpack Compose"
+        },
+        {
+            "title": "Vektor2D",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Private, Completed",
+            "link": "https://github.com/ch8n/Vektor2D",
+            "description": "Vector 2D implementation in Kotlin for Jetpack Compose Canvas API, inspired from p5.js",
+            "tech": "Kotlin, Desktop, Canvas, Jetpack Compose"
+        },
+        {
+            "title": "Magniffect",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Published",
+            "link": "https://play.google.com/store/apps/details?id=com.magniffect.chetan.magniffect&hl=en_IN",
+            "description": "Screen Magnification Application - Magniffect",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Ch8n-flix",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Ch8n-flix",
+            "description": "Netflix inspired OTT Home Screen, Contains implementation in Reactjs, Kotlin React Wrapper, Jetpack Compose Web",
+            "tech": "Kotlin, ComposeWeb, Kotlin React, KMP"
+        },
+        {
+            "title": "Compose-Your-Name",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-Your-Name",
+            "description": "Jetpack Compose app which generates random names",
+            "tech": "Kotlin, ComposeWeb, Kotlin React, KMP"
+        },
+        {
+            "title": "Compose97 - Windows 97 Inspired UI components",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose97",
+            "description": "Compose97 - Windows 97 Inspired UI components",
+            "tech": "Kotlin, Android, Jetpack Compose"
         }
     ],
     "bugs": [
@@ -372,6 +561,15 @@
             "link": "https://github.com/TheCodeMonks/NYTimes-App/pull/87",
             "description": "Added Hilt DI in NYTimes-App",
             "tech": "Android, Kotlin, DI, HILT"
+        },
+        {
+            "title": "Added Export to CSV + Scoped Storage feature in Expenso by Sanju GDE",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Closed, Merged",
+            "link": "https://github.com/Spikeysanju/Expenso/pull/169",
+            "description": "added Opencsv, added csv export functionality, also support scoped storage",
+            "tech": "Android, Kotlin, Open CSV"
         }
     ]
 }
