@@ -3,6 +3,17 @@ export type TabItem = {
 	label: string
 }
 
+export type GithubContribution = {
+	title: string
+	author: string
+	date: string
+	type: string
+	link: string
+	description: string
+	tech: string
+}
+
+
 export type Series = {
 	metadata: {
 		title: string
