@@ -1,0 +1,377 @@
+{
+    "projects": [
+        {
+            "title": "Zodiac",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Private, Completed, Published",
+            "link": "https://play.google.com/store/apps/details?id=dev.ch8n.zodiac",
+            "description": "daily astrology and horoscope application",
+            "tech": "Android, Kotlin, MVP, RxJava"
+        },
+        {
+            "title": "POC for JiaoZiVideoPlayer Player Library",
+            "author": "ch8n",
+            "date:": "24-05-2019",
+            "type": "Archived, Completed",
+            "link": "https://github.com/ch8n/VideoPlayerDemo",
+            "description": "Demo application for JiaoZiVideoPlayer - https://github.com/lipangit/JiaoZiVideoPlayer",
+            "tech": "Android, Kotlin, MVP"
+        },
+        {
+            "title": "Nodejs Todo Task POC",
+            "author": "ch8n",
+            "date:": "18-05-2019",
+            "type": "Archived, Completed",
+            "link": "https://github.com/ch8n/node-ts-todolist-demo",
+            "description": "Demo application for learning nodejs by building todo application using typescript",
+            "tech": "Nodejs, Typescript, JavaScript"
+        },
+        {
+            "title": "Android Emailer",
+            "author": "ch8n",
+            "date:": "22-05-2019",
+            "type": "Archived, Completed",
+            "link": "https://github.com/ch8n/Android-Emailer-JavaMail",
+            "description": "Send Email without using Intents, Java Mailing api",
+            "tech": "Android, Kotlin, RxJava, Java Mail"
+        },
+        {
+            "title": "Android Room-Db Playground",
+            "author": "ch8n",
+            "date:": "22-05-2019",
+            "type": "Archived, Completed",
+            "link": "https://github.com/ch8n/Android-Emailer-JavaMail",
+            "description": "Demo app implemenation to learn RoomDB by Google",
+            "tech": "Android, Kotlin, RoomDB, RxJava, MVVM, LiveData"
+        },
+        {
+            "title": "wallpaper-dumb-server",
+            "author": "ch8n",
+            "date:": "26-08-2019",
+            "type": "Private,Completed",
+            "link": "https://github.com/ch8n/wallpaper-dumb-server",
+            "description": "Reddit Wallpaper Scrapper which dumbs data to firebase BE",
+            "tech": "Nodejs, Typescript, JavaScript, cheerio, express, puppeteer"
+        },
+        {
+            "title": "POC for Shared Transition Between Activites",
+            "author": "ch8n",
+            "date:": "26-08-2019",
+            "type": "Open, Archived, Completed",
+            "link": "https://github.com/ch8n/Shared-transition-demo",
+            "description": "App to learn circular revel shared transition between activities",
+            "tech": "Android, Kotlin"
+        },
+        {
+            "title": "PlumPics",
+            "author": "ch8n",
+            "date:": "11-09-2019",
+            "type": "Private, Completed",
+            "link": "https://github.com/ch8n/PlumPics",
+            "description": "Wallpaper collection app which uses firebase as database as features to set images as background and animation on recycler views",
+            "tech": "Android, Kotlin, MVP+MVVM, Coroutines, RecyclerViews, Fragments, Animation"
+        },
+        {
+            "title": "AsyncTask Implementation using Coroutines",
+            "author": "ch8n",
+            "date:": "06-09-2019",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/AsyncTasker",
+            "description": "A challenge from my ex-colleague to implement Async Task from Scratch",
+            "tech": "Android, Kotlin, Coroutines"
+        },
+        {
+            "title": "GitTrends - Weekly Trending Java & Kotlin on Github",
+            "author": "ch8n",
+            "date:": "30-09-2019",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/GitTrends",
+            "description": "Application which gives Weekly trending repository of Java and Kotlin",
+            "tech": "Android, Kotlin, Dagger, Picasso, RoomDB, LiveData, Coroutines, MVVM"
+        },
+        {
+            "title": "Sortify - One Click categorize download folder on basis of type",
+            "author": "ch8n",
+            "date:": "17-09-2019",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Sortify-Android",
+            "description": "Application which in one click can cleanup your download folder by sorting all data by types into various folders",
+            "tech": "Android, Kotlin, Firebase - Crashlytics, Analytics, in-app Messaging, MVP, Fragments, Koin, Notification"
+        },
+        {
+            "title": "Weather App - Gojek Interview Assigment",
+            "author": "ch8n",
+            "date:": "07-09-2019",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Weather-app",
+            "description": "Gojek Interview Assigment for Creating Weather application",
+            "tech": "Android, Kotlin, Dagger,Retrofit, RoomDB, LiveData, Coroutines, MVVM, Wock Server Testing, Unit Testing, RoboElectric Testing, UI Testing"
+        },
+        {
+            "title": "Nodejs Todo App to learn graphql",
+            "author": "ch8n",
+            "date:": "07-09-2019",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Node-todoist-backend-graphql",
+            "description": "learning graphql by building todo app with nodejs",
+            "tech": "Nodejs, Typescript, JavaScript, GraphQl"
+        },
+        {
+            "title": "AndroidX releases Scrapper Server",
+            "author": "ch8n",
+            "date:": "14-07-2019",
+            "type": "Private, Pending",
+            "link": "https://github.com/ch8n/AndroidXReleaseBot",
+            "description": "Nodejs server that scraps Android X releases data to keep me updated with all new releases in Android",
+            "tech": "Nodejs, Typescript, JavaScript, cheerio, express, puppeteer"
+        },
+        {
+            "title": "Ghost Blog + Docker for chetangupta.net",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Completed, Published",
+            "link": "https://github.com/ch8n/docker-compose-ghost-blog",
+            "description": "self hosted Ghost Blogging platform with my own customized theme and Docker with backup script",
+            "tech": "Ghost, Docker, Blog, letsEncrypt"
+        },
+        {
+            "title": "POC for dialog fragment + Activity Cross communication using Shared Viewmodel",
+            "author": "ch8n",
+            "date:": "26-02-2021",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/modular-dialog-fragment-design",
+            "description": "Sample project that displays a dialog fragment which shows communication between activity and fragment using shared viewmodel, a POC to solve ex-colleague doubt",
+            "tech": "Android, Kotlin, Dialogs, Viewmodels, Fragments"
+        },
+        {
+            "title": "Awesome Kotlin Extensions",
+            "author": "ch8n",
+            "date:": "07-10-2020",
+            "type": "Archived",
+            "link": "https://github.com/ch8n/awesome-kotlin-extensions",
+            "description": "collection of Awesome Kotlin Extensions",
+            "tech": "Android, Kotlin"
+        },
+        {
+            "title": "Ryan Youtube Challenge - No Library MVVM from Scratch",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/no-external-library-mvvm-example",
+            "description": "Implementation of entire MVVM app without using any library",
+            "tech": "Android, Kotlin"
+        },
+        {
+            "title": "thatsMine application",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Pending",
+            "link": "https://github.com/ch8n/Jetpack-compose-thatsMine",
+            "description": "App to keep track of items owned by user",
+            "tech": "Android, Kotlin, Jetpack Compose, MVVM, Coroutines, Datastore"
+        },
+        {
+            "title": "Movie MVVM Demo application",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Mvvm-movie-list-sample",
+            "description": "App to keep track of items owned by user",
+            "tech": "Android, Kotlin, Dagger , ViewModel, Picasso, RecyclerView,RxJava, Retrofit"
+        },
+        {
+            "title": "BigBrainKotlin - Kotlin Playground",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open",
+            "link": "https://github.com/ch8n/Big-Brain-Kotlin",
+            "description": "Kotlin learning and problem solving playground",
+            "tech": "Kotlin, Problem Solving, Benchmark"
+        },
+        {
+            "title": "DataStructure-in-Kotlin",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open",
+            "link": "https://github.com/ch8n/DataStructure-in-Kotlin",
+            "description": "Implementation of DataStructure inspired from official Kotlin collection apis",
+            "tech": "Kotlin, Problem Solving, DataStructure, DSA"
+        },
+        {
+            "title": "Blog template build using TailWindCSS and Alpine Js",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/ch8n-blog-template",
+            "description": "blog-template build using TailWindCSS and Alpine Js",
+            "tech": "Tailwind, AlphineJs, Javascript"
+        },
+        {
+            "title": "Kotlin Morse-code-kt Script for CLI",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/morse-code-kt",
+            "description": "Kotlin Script that can encode a given message to Morse-Code or decode a given morse-code to message",
+            "tech": "Kotlin, Script, CLI, KotlinScript, CliKt, Mordant, Picnic, Inquirer"
+        },
+        {
+            "title": "Android Paint using Canvas",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Android-PaintDemo",
+            "description": "Android Paint App demo",
+            "tech": "Kotlin, Android, Canvas"
+        }
+    ],
+    "bugs": [
+        {
+            "title": "How to Add Support DiUS/Java-Faker in Android Kotlin Projects",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Fixed,Closed",
+            "link": "https://github.com/DiUS/java-faker/pull/573",
+            "description": "Possible solution for issue-https://github.com/DiUS/java-faker/issues/454 relates to Initialization of Faker (v1.0.1) failing in Android Kotlin project",
+            "tech": "Java"
+        },
+        {
+            "title": "Bugfix - set touch event to fix toggling of switch",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Open, Archived",
+            "link": "https://github.com/singhangadin/android-toggle/pull/25",
+            "description": "Bugfix for Android Library for Custom Switches.",
+            "tech": "Android, Java"
+        },
+        {
+            "title": "Multiple Bugfix - Scrolling, click-listener and Checkbox state loss fixes in recycler views",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Fixed, Merged",
+            "link": "https://github.com/pooja-srivs/CheckBox-State-In-Recycler/pulls?q=is%3Apr+is%3Aclosed+author%3Ach8n",
+            "description": "Multiple fixes for bugs to help ex-colleague learn recycler views",
+            "tech": "Android, Kotlin, RecyclerViews"
+        },
+        {
+            "title": "BugReport - Article List Flickering when tabs are changes",
+            "author": "ch8n",
+            "date:": "25-12-2020",
+            "type": "Reported",
+            "link": "https://github.com/TheCodeMonks/NYTimes-App/issues/86",
+            "description": "NYTimes-App - Whenever we switch tabs the list first shows the previous data then flicker to a new list",
+            "tech": "Android, Kotlin, MVVM"
+        },
+        {
+            "title": "NYTimes-App crashes when open in offline mode",
+            "author": "ch8n",
+            "date:": "25-12-2020",
+            "type": "Fixed, Closed",
+            "link": "https://github.com/TheCodeMonks/NYTimes-App/issues/16",
+            "description": "NYTimes-App - Whenever we switch tabs the list first shows the previous data then flicker to a new list",
+            "tech": "Android, Kotlin, MVVM"
+        },
+        {
+            "title": "Presently by Alison Wyllie from Dropbox - Rotation text lost",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/alisonthemonster/Presently/pull/148",
+            "description": "Fixed issue - Rotating screen discards unsaved text",
+            "tech": "Android, Kotlin"
+        }
+    ],
+    "features": [
+        {
+            "title": "Ryan Youtube example SpaceNotes - Firebase-Firestore code improvement on snapshots",
+            "author": "ch8n",
+            "date:": "30-12-2018",
+            "type": "Open",
+            "link": "https://github.com/BracketCove/SpaceNotes/pull/2",
+            "description": "Ryan BracketCover's SpaceNotes - on firebase firstore simplify code by using inline <reified T> to convert querySnapShot to List<T> ",
+            "tech": "Android, Kotlin, Extension"
+        },
+        {
+            "title": "Added to AndroidDev Notes Github as best source to learn Android and Kotlin",
+            "author": "ch8n",
+            "date:": "31-07-2020",
+            "type": "Open",
+            "link": "https://github.com/androiddevnotes/awesome-android-learning-resources/pull/12",
+            "description": "AndroidDevNotes Youtube and Github Channel Recommended by Blogs as one of the best Android and Kotlin Resource added me to their Awesome list! ",
+            "tech": "Android, Kotlin, Awesomelist, Featured"
+        },
+        {
+            "title": "Ryan Youtube example AndroidCleanGuiArchitecture - complete implementation of Kotlin Version",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/BracketCove/AndroidCleanGuiArchitecture/issues/1",
+            "description": "Ryans AndroidCleanGuiArchitecture example was in Java, I implemented it from scratch in Kotlin with minor improvements in DI, code and bugfixes",
+            "tech": "Android, Kotlin, MVVM"
+        },
+        {
+            "title": "Louis CAD - No Framework DI contribution",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/LouisCAD/kotlin-libraries-playground/pull/26",
+            "description": "Submitted way to implement manual DI without any framework which is compatible with any Kotlin Code even KMM/KMP and can easily migrate to Dagger or Hilt",
+            "tech": "Android, Kotlin, DI"
+        },
+        {
+            "title": "Github Actions on android-conferences by Jitinsharma GDE",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/jitinsharma/android-conferences/pull/5",
+            "description": "GitHub action for android-conferences application",
+            "tech": "Android, Kotlin, Github Actions, CI/CD"
+        },
+        {
+            "title": "Presently by Alison Wyllie from Dropbox - Migrated to new activity result API",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/alisonthemonster/Presently/pull/147",
+            "description": "Migrated to new activity result API",
+            "tech": "Android, Kotlin, Result Api"
+        },
+        {
+            "title": "NYTimes-App by Sanju GDE - Swipe to refresh",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/TheCodeMonks/NYTimes-App/pull/20",
+            "description": "added feature of swipe to refresh news on NYTimes-App",
+            "tech": "Android, Kotlin, MVVM, Coroutines, RecyclerViews"
+        },
+        {
+            "title": "NYTimes-App by Sanju GDE - Network Connectivity Snackbar",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Merged, Completed",
+            "link": "https://github.com/TheCodeMonks/NYTimes-App/pull/17",
+            "description": "Show Snackback which show app is connected to net or not based on Network Connection of Device",
+            "tech": "Android, Kotlin, MVVM, Coroutines, Toast, LiveData"
+        },
+        {
+            "title": "MVVMTodo by CodinginFlow - Suggestion for api cleanup",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Open",
+            "link": "https://github.com/codinginflow/MVVMTodo/issues/1",
+            "description": "Show Snackback which show app is connected to net or not based on Network Connection of Device",
+            "tech": "Android, Kotlin, MVVM, Coroutines, Toast, LiveData"
+        },
+        {
+            "title": "Added Hilt DI in NYTimes-App by Sanju GDE",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Closed, Merged",
+            "link": "https://github.com/TheCodeMonks/NYTimes-App/pull/87",
+            "description": "Added Hilt DI in NYTimes-App",
+            "tech": "Android, Kotlin, DI, HILT"
+        }
+    ]
+}
