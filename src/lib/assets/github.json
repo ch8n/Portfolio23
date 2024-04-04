@@ -413,6 +413,132 @@
             "link": "https://github.com/ch8n/Compose97",
             "description": "Compose97 - Windows 97 Inspired UI components",
             "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Big Brain Kotlin Book: Application #1 - JetQuiz",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/BBK-1-JetQuiz",
+            "description": "Implemented 1st application for my book to teach Android + Kotlin, We build Color Quiz Application",
+            "tech": "Kotlin, Android"
+        },
+        {
+            "title": "Le'Thoughts",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Compose-Thoughts",
+            "description": "Get on playstore https://play.google.com/store/apps/details?id=io.github.ch8n.thoughts, A Jetpack Compose Poem writing application",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Big Brain Kotlin Book: Application #2 - JetPlanner",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/BBK-2-JetPlanner",
+            "description": "Implemented 2st application for my book to teach Android + Kotlin - We develop Day Planner Application for Android",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Big Brain Kotlin Book: Application #3 - PokeHurrdle",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/BBk-3-PokeHurddle",
+            "description": "Implemented 3rd application for my book to teach Android + Kotlin - We develop Mini Pokemon GO application",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "Brainmark - Bookmark Manager for all my study links",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Brainmark",
+            "description": "I bookmark lots of articles and videos and never revisit them, It would have been great if I could get some notifications regarding bookmarks that are getting old and could lose relevance, and even if I reviewed them, having some way to extract key points would be great.",
+            "tech": "Kotlin, Android, Jetpack Compose"
+        },
+        {
+            "title": "ReelScript - KotlinScript that generate Reel from a given image, text and audio",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/ReelScript",
+            "description": "ReelScript - KotlinScript that generate Reel from a given image, text and audio",
+            "tech": "Kotlin, Script, CLI, KotlinScript"
+        },
+        {
+            "title": "Youtube Channel Search - KotlinScript that generate Reel from a given image, text and audio",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Youtube-Channel-Search",
+            "description": "Youtube Channels are not sorted by dates when you search in them , with this script we can do that!",
+            "tech": "Javascript, Nodejs, Puppeteer"
+        },
+        {
+            "title": "Medium-No-Member-Articles!",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open, Completed",
+            "link": "https://github.com/ch8n/Medium-No-Member-Articles",
+            "description": "Chrome Extension that will remove all the member articles from the medium.com",
+            "tech": "Javascript, Chrome-extension"
+        },
+        {
+            "title": "BhajanBook : Bhajans & Lyrics",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Private, Completed, Published",
+            "link": "https://play.google.com/store/apps/details?id=dev.ch8n.bhajanbook",
+            "description": "Bhajan Book is a mobile application that provides a vast collection of devotional songs, prayers, and hymns dedicated to various Indian deities. ",
+            "tech": "Javascript, Chrome-extension"
+        },
+        {
+            "title": "Inventory Android",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open",
+            "link": "https://github.com/ch8n/Inventory",
+            "description": "Inventory Tracker for my Wife Business",
+            "tech": "Android, Jetpack Compose, FireStore"
+        },
+        {
+            "title": "Inventory Server and WebApp",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Open",
+            "link": "https://github.com/ch8n/inventory-server",
+            "description": "Ecommerce Website and Server for my Wife Business",
+            "tech": "Ktor, Svelte, SvelteKit, TailwindCss"
+        },
+        {
+            "title": "Re-mind 🧠 - efficient DSA revision app that enhances learning through repetitive recall of questions.",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Private, Published",
+            "link": "https://github.com/ch8n/Re-mind",
+            "description": "An efficient DSA revision app that enhances learning through repetitive recall of questions.",
+            "tech": "Jetpack Compose, Compose Desktop, Jetbrain Exposed, Kotlin Coroutines"
+        },
+        {
+            "title": "Revamped Portfolio build in SvelteKit",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Pending",
+            "link": "https://github.com/ch8n/me",
+            "description": "Revamped Portfolio build in SvelteKit",
+            "tech": "Svelte, SvelteKit, TailwindCss"
+        },
+        {
+            "title": "Android Duplicate Resource finder",
+            "author": "ch8n",
+            "date:": "27-10-2020",
+            "type": "Pending",
+            "link": "https://github.com/ch8n/duplicate-resource-identifier",
+            "description": "Kotlin script that finds Duplicate Resource in Android Projects",
+            "tech": "Kotlin, Script, CLI, KotlinScript"
         }
     ],
     "bugs": [
@@ -469,6 +595,15 @@
             "link": "https://github.com/alisonthemonster/Presently/pull/148",
             "description": "Fixed issue - Rotating screen discards unsaved text",
             "tech": "Android, Kotlin"
+        },
+        {
+            "title": "Compose InputField workaround to fix Keyboard flicker issue",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Fixed, Open",
+            "link": "https://github.com/ch8n/Compose-OtpView",
+            "description": "Compose InputField workaround to fix Keyboard flicker issue",
+            "tech": "Android, Kotlin, Jetpack Compose"
         }
     ],
     "features": [
@@ -570,6 +705,24 @@
             "link": "https://github.com/Spikeysanju/Expenso/pull/169",
             "description": "added Opencsv, added csv export functionality, also support scoped storage",
             "tech": "Android, Kotlin, Open CSV"
+        },
+        {
+            "title": "Added Map my India SDK to CarpoolSystem App for university students project",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Closed, Merged",
+            "link": "https://github.com/komal-bindal/CarpoolSystem/pull/30",
+            "description": "Added Map my india SDK to CarpoolSystem app",
+            "tech": "Android, Kotlin, Open CSV"
+        },
+        {
+            "title": "Holi by PatilSiddhesh - Added Holi colors on the Material Theme object",
+            "author": "ch8n",
+            "date:": "04-11-2020",
+            "type": "Closed, Merged",
+            "link": "https://github.com/PatilSiddhesh/Holi/pull/3",
+            "description": "Using LocalComposition Added Holi colors to be available on the Material Theme object.",
+            "tech": "Android, Kotlin, Colour Pallets"
         }
     ]
 }
