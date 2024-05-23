@@ -1,5 +1,6 @@
 import type { Series } from '$lib/data/types'
 import type { PageLoad } from './$types'
+import home from '$lib/assets/home.json'
 
 export const load = (async () => {
 	try {
@@ -7,11 +8,13 @@ export const load = (async () => {
 		const series: Series[] = await response.json()
 		console.log(series)
 		return {
+			highlights: home.highlights,
 			series
 		}
 	} catch (error) {
 		console.error(error)
 		return {
+			highlights: home.highlights,
 			series: []
 		}
 	}

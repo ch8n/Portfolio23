@@ -1,13 +1,15 @@
 <script lang="ts">
 	import type { PageData } from './$types'
+	import Highlight from '$lib/components/home/Highlight.svelte'
 	import type { Blog, Series } from '$lib/data/types'
 	import { formatDate } from '$lib/data/utils'
+	import { onMount } from 'svelte'
 	export let data: PageData
     let series = data.series as Series[]
 </script>
 
 
-<div>
+<!-- <div>
 	<section class="container mx-auto">
 		<ul class="list-none">
 			{#each series as post}
@@ -21,4 +23,12 @@
 			{/each}
 		</ul>
 	</section>
+</div> -->
+
+<div>
+	<!-- header -->
+	<Highlight highlights={data.highlights}/>
+
+	<p class="text-5xl">Blogs 📝</p>
+	<p class="text-8xl">COMING SOON... </p>
 </div>

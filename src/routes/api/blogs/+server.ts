@@ -65,6 +65,5 @@ async function getCodelabs(): Promise<Series[]> {
 
 export async function GET() {
 	const blogPosts: Series[] = await getCodelabs()
-	console.log(blogPosts)
 	return json(blogPosts)
 }
