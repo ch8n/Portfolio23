@@ -6,7 +6,9 @@ export const load = (async () => {
 		const response = await fetch('api/blogs')
 		const series: Series[] = await response.json()
 		console.log(series)
-		return { series }
+		return {
+			series
+		}
 	} catch (error) {
 		console.error(error)
 		return {

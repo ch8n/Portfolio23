@@ -26,6 +26,8 @@ export type ExperienceMap = {
 	[id: string]: ExperienceStyle
 }
 
+
+
 export type GithubContribution = {
 	title: string
 	author: string
@@ -57,7 +59,7 @@ export type Blog = {
 }
 
 export type Experience = {
-	id:string,
+	id: string,
 	designation: string
 	company: string
 	industry: string
@@ -65,6 +67,16 @@ export type Experience = {
 	duration: string
 	join_year: number
 	type: string
+}
+
+
+export type ContributionButton = {
+	id:string,
+	iconEmoji: string,
+	label: string,
+	description: string,
+	bgColor: string,
+	textColor: string,
 }
 
 export type Award = {
