@@ -1,8 +1,3 @@
-export type TabItem = {
-	path: string
-	label: string
-}
-
 export type SocialMedia = {
 	icon: string
 	url: string
@@ -89,21 +84,3 @@ export type Award = {
 	proof_link: string
 }
 
-export const toolbarItems: TabItem[] = [
-	{
-		path: '/',
-		label: 'Home'
-	},
-	{
-		path: '/work',
-		label: 'Work Experience'
-	},
-	{
-		path: '/contributions',
-		label: 'Contributions'
-	},
-	{
-		path: '/awards',
-		label: 'Awards'
-	}
-]

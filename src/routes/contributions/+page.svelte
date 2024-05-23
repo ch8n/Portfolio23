@@ -2,9 +2,8 @@
 	import { goto } from '$app/navigation'
 	import Highlight from '$lib/components/home/Highlight.svelte'
 	import type { PageData } from './$types'
-	import type { ContributionButton, TabItem } from '$lib/data/types'
+	import type { ContributionButton } from '$lib/data/types'
 	import ContributionButtonUI from '$lib/components/contributions/ContributionButton.svelte'
-	import ContributionButton from '$lib/components/contributions/ContributionButton.svelte'
 	export let data: PageData
 
 	type ContributionNavigation = {

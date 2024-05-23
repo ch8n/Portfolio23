@@ -1,10 +1,6 @@
 <script lang="ts">
 	import '../app.css'
-	import { toolbarItems } from '$lib/data/types'
-	import { page } from '$app/stores'
 	import Header from '$lib/components/Header.svelte'
-	$: first = toolbarItems.find((item) => item.path === $page.route.id) || toolbarItems[0]
-	$: others = toolbarItems.filter((item) => item.path !== first?.path)
 </script>
 
 <Header />
