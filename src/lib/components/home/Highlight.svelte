@@ -3,16 +3,6 @@
 	import devImage from "$lib/assets/images/dev_pic.svg";
 </script>
 
-<!-- <div class="grid lg:grid-cols-6 md:grid-cols-4 sm:grid-cols-2 pt-8">
-	<img class={`col-span-1 mx-auto place-self-center`} src={`./assets/dev_pic.svg`} alt="" />
-
-	<ul class={`lg:col-span-5 md:col-span-3 sm:grid-cols-1 ms-8 p-8 text-xl list-disc`}>
-		{#each highlights as highlight}
-			<li>{highlight}</li>
-		{/each}
-	</ul>
-</div> -->
-
 <div class="flex flex-col md:flex-row items-center mx-8">
 	<!-- Image -->
 	<img

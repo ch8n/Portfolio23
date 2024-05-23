@@ -1,158 +1,114 @@
 {
     "experiences": [
         {
+            "id": "housing",
             "designation": "Senior Software Engineer (Android)",
             "company": "Housing.com",
             "industry": "Digital Realestate",
             "location": "Gurgaon, Haryana",
             "duration": "[Aug 2021 – Present]",
-            "join_year" : 2021,
-            "type": "Full time",
-            "style": {
-                "bg_color": "bg-yellow-400",
-                "font_color": "text-violet-700",
-                "icon_path": "housing_bg_icon.svg"
-            }
+            "join_year": 2021,
+            "type": "Full time"
         },
         {
+            "id": "deutsche",
             "designation": "Software Engineer (Android)",
             "company": "Deutsche Telekom Digital Labs",
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
             "duration": "[Apr 2020 – Aug 2021]",
-            "join_year" : 2020,
-            "type": "Full time",
-            "style": {
-                "bg_color": "bg-pink-600",
-                "font_color": "text-white",
-                "icon_path": "tsystem_bg_icon.svg"
-            }
+            "join_year": 2020,
+            "type": "Full time"
         },
         {
+            "id": "appstreet",
             "designation": "Software Engineer (Android)",
             "company": "App Street Software Pvt. Ltd.",
             "industry": "Software Service",
             "location": "Gurgaon, Haryana",
-            "join_year" : 2019,
+            "join_year": 2019,
             "duration": "[Sep 2019 – March 2020]",
-            "type": "Full time",
-            "style": {
-                "bg_color": "bg-orange-500",
-                "font_color": "text-zinc-800",
-                "icon_path": "appsteet_bg_icon.svg"
-            }
+            "type": "Full time"
         },
         {
+            "id": "u2opia",
             "designation": "Software Engineer (Android)",
             "company": "U2opia Mobiles",
             "industry": "AdTechnology",
             "location": "Gurgaon, Haryana",
-            "join_year" : 2018,
+            "join_year": 2018,
             "duration": "[June 2018 – August 2019]",
-            "type": "Full time",
-            "style": {
-                "bg_color": "bg-purple-600",
-                "font_color": "text-white",
-                "icon_path": "u2opia_bg_icon.svg"
-            }
+            "type": "Full time"
         },
         {
+            "id": "olly",
             "designation": "Software Engineer (Android)",
             "company": "Olly Credit",
             "industry": "Fintechnology",
             "location": "Gurgaon, Haryana",
-            "join_year" : 2018,
+            "join_year": 2018,
             "duration": "[June 2018 – August 2019]",
-            "type": "Full time",
-            "style": {
-                "bg_color": "bg-blue-800",
-                "font_color": "text-white",
-                "icon_path": "olly_bg_icon.svg"
-            }
+            "type": "Full time"
         },
         {
+            "id": "deutsche_contract",
             "designation": "Software Consultant (Android)",
             "company": "Deutsche Telekom Digital Labs",
             "industry": "Telecommunication",
             "location": "Gurgaon, Haryana",
-            "join_year" : 2020,
+            "join_year": 2020,
             "duration": 2020,
-            "type": "Consultant",
-            "style": {
-                "bg_color": "bg-pink-600",
-                "font_color": "text-white",
-                "icon_path": "tsystem_bg_icon.svg"
-            }
+            "type": "Consultant"
         },
         {
+            "id": "sehat",
             "designation": "Software Consultant (Android)",
             "company": "SehatQ",
             "industry": "Healthcare",
             "location": "Indonesia",
-            "join_year" : 2019,
+            "join_year": 2019,
             "duration": 2019,
-            "type": "Consultant",
-            "style": {
-                "bg_color": "bg-slate-500",
-                "font_color": "text-white",
-                "icon_path": "sehatq_bg_icon.svg"
-            }
+            "type": "Consultant"
         },
         {
+            "id": "tech4impact",
             "designation": "Android Intern",
             "company": "Tech for Impact",
             "industry": "NGO",
             "location": "Connaught Place, New Delhi",
-            "join_year" : 2017,
+            "join_year": 2017,
             "duration": 2017,
-            "type": "Internship",
-            "style": {
-                "bg_color": "bg-teal-500",
-                "font_color": "text-white",
-                "icon_path": "techimpact_bg_icon.svg"
-            }
+            "type": "Internship"
         },
         {
+            "id": "agbe",
             "designation": "Android Intern",
             "company": "Agbe Technologies",
             "industry": "Automobile Search",
             "location": "Gurgaon, Haryana",
-            "join_year" : 2016,
+            "join_year": 2016,
             "duration": 2016,
-            "type": "Internship",
-            "style": {
-                "bg_color": "bg-slate-400",
-                "font_color": "text-white",
-                "icon_path": "agbe_bg_icon.svg"
-            }
+            "type": "Internship"
         },
         {
+            "id": "cmc",
             "designation": "Android Intern",
             "company": "CMC Limited, TATA",
             "industry": "Education Technology",
             "location": "Noida, New Delhi",
-            "join_year" : 2015,
+            "join_year": 2015,
             "duration": 2015,
-            "type": "Internship",
-            "style": {
-                "bg_color": "bg-blue-400",
-                "font_color": "text-white",
-                "icon_path": "tata_bg_icon.svg"
-            }
+            "type": "Internship"
         },
         {
+            "id": "isst",
             "designation": "Android Intern",
             "company": "ISST, NGO",
             "industry": "NGO",
             "location": "Police Station Kalyanpuri , New Delhi",
-            "join_year" : 2014,
+            "join_year": 2014,
             "duration": 2014,
-            "type": "Internship",
-            "style": {
-                "bg_color": "bg-fuchsia-700",
-                "font_color": "text-white",
-                "icon_path": "isst_bg_icon.svg"
-            }
+            "type": "Internship"
         }
     ]
 }

@@ -16,6 +16,16 @@ export type Education = {
 	cgpa: string
 }
 
+export type ExperienceStyle = {
+	bg_color: string
+	font_color: string
+	icon_path: string
+}
+
+export type ExperienceMap = {
+	[id: string]: ExperienceStyle
+}
+
 export type GithubContribution = {
 	title: string
 	author: string
@@ -47,6 +57,7 @@ export type Blog = {
 }
 
 export type Experience = {
+	id:string,
 	designation: string
 	company: string
 	industry: string
@@ -54,11 +65,6 @@ export type Experience = {
 	duration: string
 	join_year: number
 	type: string
-	style: {
-		bg_color: string
-		font_color: string
-		icon_path: string
-	}
 }
 
 export type Award = {
@@ -69,11 +75,6 @@ export type Award = {
 	time: string
 	year: number
 	proof_link: string
-	style: {
-		bg_color: string
-		font_color: string
-		icon_path: string
-	}
 }
 
 export const toolbarItems: TabItem[] = [
