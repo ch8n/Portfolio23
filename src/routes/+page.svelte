@@ -1,14 +1,9 @@
 <script lang="ts">
 	import Testimonials from '$lib/components/home/Testimonials.svelte'
-
 	import Qualification from '$lib/components/home/Qualification.svelte'
-
 	import WorkExperience from '$lib/components/home/WorkExperience.svelte'
-
 	import Awards from '$lib/components/home/Awards.svelte'
-
 	import SocialConnect from '$lib/components/home/SocialConnect.svelte'
-
 	import Contact from '$lib/components/home/Contact.svelte'
 	import Highlight from '$lib/components/home/Highlight.svelte'
 	import Resume from '$lib/components/home/Resume.svelte'
