@@ -9,6 +9,13 @@ export type SocialMedia = {
 	name: string
 }
 
+export type Education = {
+	course: string
+	school: string
+	marksheet: string
+	cgpa: string
+}
+
 export type GithubContribution = {
 	title: string
 	author: string
