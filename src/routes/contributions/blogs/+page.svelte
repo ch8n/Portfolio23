@@ -1,11 +1,11 @@
 <script lang="ts">
 	import type { PageData } from './$types'
 	import Highlight from '$lib/components/home/Highlight.svelte'
-	import type { Blog, Series } from '$lib/data/types'
-	import { formatDate } from '$lib/data/utils'
-	import { onMount } from 'svelte'
+	// import type { Blog, Series } from '$lib/data/types'
+	// import { formatDate } from '$lib/data/utils'
+	// import { onMount } from 'svelte'
 	export let data: PageData
-    let series = data.series as Series[]
+    // let series = data.series as Series[]
 </script>
 
 
