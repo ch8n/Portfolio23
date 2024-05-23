@@ -3,6 +3,12 @@ export type TabItem = {
 	label: string
 }
 
+export type SocialMedia = {
+	icon: string
+	url: string
+	name: string
+}
+
 export type GithubContribution = {
 	title: string
 	author: string
