@@ -1,13 +1,15 @@
 <script>
 	import { goto } from '$app/navigation'
+	import { base } from '$app/paths'
 	import { page } from '$app/stores'
 	import { derived } from 'svelte/store'
+	
 
 	let tabs = [
-		{ name: 'Home', href: '/' },
-		{ name: 'Awards', href: '/awards' },
-		{ name: 'Work Experience', href: '/work' },
-		{ name: 'Contributions', href: '/contributions' }
+		{ name: 'Home', href: `${base}/` },
+		{ name: 'Awards', href: `${base}/awards` },
+		{ name: 'Work Experience', href: `${base}/work` },
+		{ name: 'Contributions', href: `${base}/contributions` }
 	]
 
 	// Derive the current page name based on the URL
