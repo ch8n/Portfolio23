@@ -5,7 +5,7 @@
 </script>
 
 <div class="mt-8">
-	<a class="text-3xl font-semibold" href={email} target="_blank">Contact 📞</a>
+	<a class="text-3xl font-semibold" target="_blank">Contact 📞</a>
 
 	<p class="px-4 my-4 text-white text-base font-normal">
 		You can connect with me through
