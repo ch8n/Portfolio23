@@ -3,18 +3,24 @@
 	import { base } from '$app/paths'
 	import { page } from '$app/stores'
 	import { derived } from 'svelte/store'
-	
+	import _ from 'lodash'
 
 	let tabs = [
-		{ name: 'Home', href: `/` },
+		{ name: 'Home', href: `${base}/` },
 		{ name: 'Awards', href: `${base}/awards` },
 		{ name: 'Work Experience', href: `${base}/work` },
 		{ name: 'Contributions', href: `${base}/contributions` }
 	]
 
 	// Derive the current page name based on the URL
-	const currentPage = derived(page, ($page) => {
-		const currentTab = tabs.find((tab) => tab.href === $page.url.pathname)
+	let currentPage = derived(page, ($page) => {
+		const currentTab = tabs.find((tab) => {
+			const tabParts = _.split(tab.href, '/')
+			const tabLastValue = _.last(tabParts)
+			const pathNameParts = _.split($page.url.pathname, '/')
+			const pathLastValue = _.last(pathNameParts)
+			return tabLastValue == pathLastValue
+		})
 		return currentTab ? currentTab.name : ''
 	})
 
@@ -36,9 +42,8 @@
 
 <div class="fixed top-0 w-full bg-gray-800 text-white shadow-md z-10">
 	<div class="container mx-auto flex justify-between items-center py-4 px-6">
-
-        <!-- mobile@ menu Icon -->
-        <div class="lg:hidden">
+		<!-- mobile@ menu Icon -->
+		<div class="lg:hidden">
 			<button on:click={toggleMobileMenu} class="text-white">
 				<svg
 					class="w-6 h-6"
@@ -56,13 +61,13 @@
 				</svg>
 			</button>
 		</div>
-		
-        <!-- Selected tab -->
-        <div class="text-2xl font-bold mx-auto lg:mx-0 lg:ml-0 lg:mr-auto">
+
+		<!-- Selected tab -->
+		<div class="text-2xl font-bold mx-auto lg:mx-0 lg:ml-0 lg:mr-auto">
 			{$currentPage}
 		</div>
 
-        <!-- nav tabs -->
+		<!-- nav tabs -->
 		<nav class="hidden lg:flex space-x-4">
 			{#each filteredTabs as tab}
 				<a
