@@ -4,6 +4,7 @@
 	import type { PageData } from './$types'
 	import type { ContributionButton } from '$lib/data/types'
 	import ContributionButtonUI from '$lib/components/contributions/ContributionButton.svelte'
+	import { base } from '$app/paths'
 	export let data: PageData
 
 	type ContributionNavigation = {
@@ -11,9 +12,9 @@
 	}
 
 	let navigation: ContributionNavigation = {
-		blog: '/contributions/blogs',
-		projects: '/contributions/projects',
-		github: '/contributions/github'
+		blog: `${base}/contributions/blogs`,
+		projects: `${base}/contributions/projects`,
+		github: `${base}/contributions/github`
 	}
 
 	let buttons: ContributionButton[] = [
