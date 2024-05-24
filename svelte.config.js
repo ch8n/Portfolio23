@@ -16,7 +16,7 @@ const config = {
 			assets: 'build',
 			precompress: false,
 			strict: true,
-			fallback: 'index.html'
+			fallback: undefined
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH
