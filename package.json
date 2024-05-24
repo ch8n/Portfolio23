@@ -12,6 +12,7 @@
     "eslint": "^8.28.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte": "^2.30.0",
+    "gh-pages": "^6.1.1",
     "postcss": "^8.4.29",
     "prettier": "^2.8.0",
     "prettier-plugin-svelte": "^2.10.1",
@@ -36,7 +37,8 @@
     "lint": "prettier --plugin-search-dir . --check . && eslint .",
     "format": "prettier --plugin-search-dir . --write .",
     "test:integration": "playwright test",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "gh-pages": "npm run build && npx gh-pages -d build"
   },
   "type": "module",
   "types": "module",
