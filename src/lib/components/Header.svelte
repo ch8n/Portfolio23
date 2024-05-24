@@ -6,7 +6,7 @@
 	
 
 	let tabs = [
-		{ name: 'Home', href: `${base}/` },
+		{ name: 'Home', href: `/` },
 		{ name: 'Awards', href: `${base}/awards` },
 		{ name: 'Work Experience', href: `${base}/work` },
 		{ name: 'Contributions', href: `${base}/contributions` }
