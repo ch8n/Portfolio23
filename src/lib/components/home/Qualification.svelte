@@ -5,7 +5,7 @@
 </script>
 
 <div class="mt-8">
-	<a class="text-3xl font-semibold" href="#">Qualification 🎓</a>
+	<p class="text-3xl font-semibold">Qualification 🎓</p>
 
 	<p class="px-4 my-4 text-white text-base font-normal">My College and Schooling Details:</p>
 	<div class="grid lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-3">
